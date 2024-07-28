@@ -1,0 +1,541 @@
+module Base 
+{
+	
+	recipe Craft Improvised Cleaning kit
+	{
+	   RippedSheets,
+	   Toothbrush,
+	   [Recipe.GetItemTypes.Liquor];10,
+	  
+	
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_ImprovisedCleaningKit,
+	   Time:400.0,
+	   Category:TLOG,
+	   Prop1:Source=3,
+	   Prop2:Source=1,
+	   AllowDestroyedItem:true,
+	}
+	recipe Craft Reinforced Barrel (Taurus Raging Bull)
+	{
+	   TLOG_SmallMetalPipe,
+	   ScrapMetal = 2,
+	   BlowTorch=3,
+	   SmallSheetMetal=3,
+	   Wire,
+	   Screws = 2,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=3,
+	   Result:TLOG_ElDiabloBarrelUpgrade,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:600.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=3,
+	   Prop2:TLOG_SmallMetalPipeCrafting,
+	   AllowDestroyedItem:true,
+	}
+	recipe Craft Expanded Magazine (Taurus Raging Bull)
+	{
+	   ScrapMetal = 4,
+	   BlowTorch=2,
+	   SmallSheetMetal=2,
+	   Screws = 2,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=3,
+	   Result:TLOG_ElDiabloExpandedMag,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:600.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=2,
+	   AllowDestroyedItem:true,
+	}
+		recipe Craft Expanded Magazine (Remington 700)
+	{
+	   ScrapMetal = 2,
+	   BlowTorch=2,
+	   SmallSheetMetal=2,
+	   Screws = 2,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=2,
+	   Result:TLOG_ExpandedMag,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:600.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=2,
+	   AllowDestroyedItem:true,
+	}
+		recipe Craft Expanded Magazine (Remington 870)
+	{
+		TLOG_SmallMetalPipe,
+		ScrapMetal = 2,
+		BlowTorch=2,
+		Screws = 2,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=3,
+	   Result:TLOG_Pumpshotgun1ExpandedMag,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:600.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=3,
+	   Prop2:TLOG_SmallMetalPipeCrafting
+	   AllowDestroyedItem:true,
+	}
+	
+	recipe Craft Improvised Weapon Flashlight
+	{
+	   DuctTape=2,
+	   HandTorch,
+	   
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_WeaponFlashlight,
+	   Sound:FixWithTape,
+	   Time:250.0,
+	   Category:TLOG,
+	   Prop1:TLOG_CraftingDuctTape,
+	   Prop2:HandTorch,
+	}
+	recipe Craft Improvised Stock (Shovel Handle)
+	{
+	   Shovel/Shovel2,
+	   keep [Recipe.GetItemTypes.Saw],
+	   Screws = 2,
+
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_HandlessShovel,
+	   Sound:Sawing,
+	   Time:230.0,
+	   Category:TLOG,
+	   OnCreate:Recipe.OnCreate.TLOGShovelHandle,
+	   OnGiveXP:Recipe.OnGiveXP.SawLogs,
+	   AnimNode:SawLog,
+	   Prop1:Source=2,
+	   Prop2:TLOG_ShovelCraft,
+	   AllowDestroyedItem:true,
+	}
+	recipe Craft Improvised Stock
+	{
+	   Plank,
+	   keep [Recipe.GetItemTypes.Saw],
+	   Screws = 2,
+
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_FullAutoRiflePlankStock,
+	   Sound:Sawing,
+	   Time:230.0,
+	   Category:TLOG,
+	   OnGiveXP:Recipe.OnGiveXP.SawLogs,
+	   OnCreate:Recipe.OnCreate.TLOGUnusableWood,
+	   AnimNode:SawLog,
+	   Prop1:Source=2,
+	   Prop2:TLOG_PlankCraft,
+	   AllowDestroyedItem:false,
+	}
+	recipe Craft High Quality Wooden Stock
+	{
+	   Log,
+	   keep [Recipe.GetItemTypes.Saw],
+	   Woodglue = 2,
+	   [Recipe.GetItemTypes.SharpKnife]/MeatCleaver,
+	   RippedSheets = 1,
+	   Screws = 2,
+
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_FullAutoRifleStock,
+	   
+	   Sound:Sawing,
+	   Time:1000.0,
+	   Category:TLOG,
+	   SkillRequired:Woodwork=4,
+	   OnGiveXP:Recipe.OnGiveXP.WoodWork5,
+	   OnCreate:Recipe.OnCreate.TLOGUnusableWood,
+	   AnimNode:SawLog,
+	   Prop1:Source=2,
+	   Prop2:Log,
+	   AllowDestroyedItem:false,
+	}
+	recipe Cut Pipe Into Smaller Pieces
+	{
+	   LeadPipe/MetalPipe,
+	   keep [Recipe.GetItemTypes.Saw],
+
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_SmallMetalPipe=3,
+	   Sound:Sawing,
+	   Time:400.0,
+	   Category:TLOG,
+	   OnCreate:Recipe.OnCreate.TLOGUnusableMetal,
+	   AnimNode:SawLog,
+	   Prop1:Source=2,
+	   Prop2:Source=1,
+	   AllowDestroyedItem:true,
+	}
+	recipe Cut Pipe Into Smaller Pieces (Propane Torch)
+	{
+	   LeadPipe/MetalPipe,
+	   BlowTorch=1,
+
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_SmallMetalPipe=3,
+	   Sound:BlowTorch,
+	   Time:400.0,
+	   Category:TLOG,
+	   OnCreate:Recipe.OnCreate.TLOGUnusableMetal,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding10,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=2,
+	   Prop2:Source=1,
+	   AllowDestroyedItem:true,
+	}
+	recipe Craft Spreader Attachment (Baikal MP 27)
+	{
+	   TLOG_SmallMetalPipe = 2,
+	   ScrapMetal = 1,
+	   BlowTorch=2,
+	   Wire,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Saw],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=2,
+	   Result:TLOG_PipeDoubleBarrelSpreader,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:700.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=3,
+	   Prop2:TLOG_SmallMetalPipeCrafting,
+	}
+	recipe Craft Choke Attachment (Baikal MP 27)
+	{
+	   TLOG_SmallMetalPipe = 2,
+	   ScrapMetal = 1,
+	   BlowTorch=2,
+	   Wire,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Saw],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=2,
+	   Result:TLOG_PipeDoubleBarrelChoke,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:700.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=3,
+	   Prop2:TLOG_SmallMetalPipeCrafting,
+	}
+	recipe Craft Improvised Suppressor
+	{
+	   TLOG_SmallMetalPipe,
+	   ScrapMetal = 2,
+	   BlowTorch=2,
+	   SmallSheetMetal=2,
+	   Wire,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Hammer],
+	   keep [Recipe.GetItemTypes.Saw],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=4,
+	   Result:TLOG_ImprovisedSuppressor,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:600.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=3,
+	   Prop2:TLOG_SmallMetalPipeCrafting,
+	   AllowDestroyedItem:true,
+	}
+	recipe Craft Wooden Vertical Grip
+	{
+	   Plank,
+	   [Recipe.GetItemTypes.SharpKnife]
+	   Screws = 2,
+	  
+       SkillRequired:Woodwork=4,
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_GripWood,
+	   Time:250.0,
+	   Category:TLOG,
+	   Prop1:Source=2,
+	}
+	recipe Craft Wooden Curved Grip
+	{
+	   Plank,
+	   [Recipe.GetItemTypes.SharpKnife]
+	   Screws = 2,
+	  
+		SkillRequired:Woodwork=4,
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_ForwardGripWood,
+	   Time:250.0,
+	   Category:TLOG,
+	   Prop1:Source=2,
+	}
+	recipe Craft Bottle Suppressor
+	{
+	   WaterBottleEmpty/PopBottleEmpty,
+	   DuctTape = 2,
+
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_BottleSuppressor,
+	   Sound:FixWithTape,
+	   Time:250.0,
+	   Category:TLOG,
+	   Prop1:TLOG_CraftingDuctTape,
+	   Prop2:Source=1,
+	}
+	
+	recipe Repair Broken Improvised Suppressor
+	{
+	   TLOG_ImprovisedSuppressorBroken,
+	   ScrapMetal = 1,
+	   BlowTorch=2,
+	   SmallSheetMetal,
+	   
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=3,
+	   Result:TLOG_ImprovisedSuppressor,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:900.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=3,
+	   Prop2:TLOG_ImprovisedSuppressorBrokenCrafting,
+	   AllowDestroyedItem:true,
+	}
+	recipe Disassemble Lug Wrench
+	{
+	   LugWrench,
+	   keep [Recipe.GetItemTypes.Saw],
+	
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_Socket=2,
+	   Sound:Sawing,
+	   AnimNode:SawLog,
+	   OnCreate:Recipe.OnCreate.TLOGUnusableMetal,
+	   Time:250.0,
+	   Category:TLOG,
+	   Prop1:Source=2,
+	   Prop2:LugWrench,
+	}
+	recipe Disassemble Lug Wrench
+	{
+	   LugWrench,
+	   BlowTorch=1,
+	
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_Socket=2,
+	   Sound:BlowTorch,
+	   AnimNode:BlowTorchFloor,
+	   OnCreate:Recipe.OnCreate.TLOGUnusableMetal,
+	   Time:250.0,
+	   Category:TLOG,
+	   Prop1:Source=2,
+	}
+	recipe Craft Muzzle Brake (Socket)
+	{
+	   TLOG_Socket,
+	   ScrapMetal = 1,
+	   BlowTorch=1,
+	   Wire,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Saw],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=1,
+	   Result:TLOG_LugWrenchMuzzleBrake,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:700.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=3,
+	   Prop2:TLOG_SocketCraft,
+	}
+	recipe Craft Flash Hider (Socket)
+	{
+	   TLOG_Socket,
+	   ScrapMetal = 1,
+	   BlowTorch=1,
+	   Wire,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Saw],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=1,
+	   Result:TLOG_LugWrenchFlashHider,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:700.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=3,
+	   Prop2:TLOG_SocketCraft,
+	}
+	recipe Craft Muzzle Brake (Pipe)
+	{
+	   TLOG_SmallMetalPipe,
+	   ScrapMetal = 1,
+	   BlowTorch=1,
+	   Wire,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Saw],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=2,
+	   Result:TLOG_PipeMuzzleBrake,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:700.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=3,
+	   Prop2:TLOG_SmallMetalPipeCrafting,
+	}
+	recipe Craft Pistol Muzzle Brake (Pipe)
+	{
+	   TLOG_SmallMetalPipe,
+	   ScrapMetal = 1,
+	   BlowTorch=1,
+	   Wire,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Saw],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=2,
+	   Result:TLOG_PipePistolMuzzleBrake,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:700.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=3,
+	   Prop2:TLOG_SmallMetalPipeCrafting,
+	}
+	recipe Craft Flash Hider (Pipe)
+	{
+	   TLOG_SmallMetalPipe,
+	   ScrapMetal = 1,
+	   BlowTorch=1,
+	   Wire,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Saw],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:MetalWelding=2,
+	   Result:TLOG_PipeFlashHider,
+	   OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+	   Sound:BlowTorch,
+	   Time:700.0,
+	   Category:TLOG,
+	   AnimNode:BlowTorchFloor,
+	   Prop1:Source=3,
+	   Prop2:TLOG_SmallMetalPipeCrafting,
+	}
+	recipe Craft Firearm Sling (Rope)
+	{
+	   Rope,
+	   
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_SlingRope,
+	   Time:250.0,
+	   Category:TLOG,
+	}
+	recipe Craft Firearm Sling (SheetRope)
+	{
+	   SheetRope,
+	   
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_SlingSheetRope,
+	   Time:250.0,
+	   Category:TLOG,
+	}
+	recipe Craft Firearm Sling (DuctTape)
+	{
+	   DuctTape=4,
+	   
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_SlingDuctTape,
+	   Sound:FixWithTape,
+	   Time:250.0,
+	   Category:TLOG,
+	   Prop1:TLOG_CraftingDuctTape,
+	}
+	recipe Craft Firearm Sling (Belt)
+	{
+	   Belt/Belt2,
+	   
+	   
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_SlingBelt,
+	   Time:250.0,
+	   Category:TLOG,
+	}
+	recipe Revert Sling to Belt
+	{
+	   TLOG_SlingBelt,
+	   
+	   
+	   CanBeDoneFromFloor:true,
+	   Result:Belt,
+	   Time:250.0,
+	   Category:TLOG,
+	}
+	recipe Craft Firearm Sling (High Quality)
+	{
+	   DenimStrips=4,
+	   keep [Recipe.GetItemTypes.SewingNeedle],
+	   Thread=5,
+	   ScrapMetal = 1,
+	   keep [Recipe.GetItemTypes.Hammer],
+	   SkillRequired:Tailoring=4,
+	   
+	   CanBeDoneFromFloor:true,
+	   Result:TLOG_Sling,
+	   Time:700.0,
+	   Category:TLOG,
+	}
+
+
+}

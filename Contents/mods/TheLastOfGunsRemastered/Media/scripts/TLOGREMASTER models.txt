@@ -1,0 +1,1267 @@
+module Base
+{
+	
+	model TLOG_Flamethrower
+	{
+		mesh = weapons/firearm/TLOG_Flamethrower,
+		texture = weapons/firearm/TLOG_Flamethrower,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.0210 0.0360,
+			rotate = -90.0000 0.0000 -90.0000,
+		}
+	}
+	model TLOG_HuntingRifle
+	{
+		mesh = weapons/firearm/TLOG_HuntingRifle,
+		texture = weapons/firearm/TLOG_HuntingRifle,
+
+		attachment scope
+		{
+			offset = 0.0000 0.1110 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5260 0.0250,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1120 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0010 0.5240 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.0170 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0730 0.0320,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddotmount
+		{
+			offset = -0.0040 0.0660 -0.0370,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0010 0.1110 0.0350,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0000 0.0800 0.0340,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.5170 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0000 0.5200 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_MilitarySniper
+	{
+		mesh = weapons/firearm/TLOG_MilitarySniper,
+		texture = weapons/firearm/TLOG_MilitarySniper,
+
+		attachment scope
+		{
+			offset = 0.0000 0.1110 0.0510,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.5090 0.0360,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.2120 0.0180,
+			rotate = -132.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0010 0.5240 0.0250,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.0490 0.0360,
+			rotate = -5.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = -0.0020 0.0900 0.0540,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.3290 0.0170,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0000 0.1140 0.0630,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.1070 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = -0.0030 0.3470 0.0110,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_MPX
+	{
+		mesh = weapons/firearm/TLOG_MPX,
+		texture = weapons/firearm/TLOG_MPX,
+
+		attachment scope
+		{
+			offset = 0.0000 0.1000 0.0320,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2710 0.0190,
+			rotate = -90.0000 0.0000 -90.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.2070 0.0140,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.2460 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 -0.0280 -0.0170,
+			rotate = 2.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0900 0.0440,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0000 0.0460 0.0470,
+			rotate = -1.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0710 0.0460,
+			rotate = -1.0000 0.0000 0.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.2550 0.0200,
+			rotate = -1.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0000 0.2740 0.0190,
+			rotate = -1.0000 0.0000 0.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0040 0.2210 0.0470,
+			rotate = 179.0000 0.0000 180.0000,
+		}
+
+		attachment grip
+		{
+			offset = 0.0000 0.2160 0.0050,
+			rotate = -1.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_AssaultRifle
+	{
+		mesh = weapons/firearm/TLOG_AssaultRifle,
+		texture = weapons/firearm/TLOG_AssaultRifle,
+
+		attachment scope
+		{
+			offset = 0.0000 0.1000 0.0410,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3960 0.0290,
+			rotate = -90.0000 0.0000 -90.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.2070 0.0140,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0010 0.3490 0.0300,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0900 0.0510,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0000 0.0730 0.0520,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.1000 0.0530,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.3640 0.0300,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0000 0.3890 0.0300,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0050 0.1960 0.0560,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment grip
+		{
+			offset = 0.0000 0.2070 0.0180,
+			rotate = -1.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_Specter
+	{
+		mesh = weapons/firearm/TLOG_Specter,
+		texture = weapons/firearm/TLOG_Specter,
+
+		attachment scope
+		{
+			offset = 0.0000 0.1000 0.0410,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0040 0.3260 0.0250,
+			rotate = -90.0000 0.0000 -90.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.2070 0.0140,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0040 0.3050 0.0260,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0030 0.0740 0.0570,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.0370 0.0120,
+			rotate = -4.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0030 0.0840 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0040 0.3200 0.0250,
+			rotate = -1.0000 0.0000 0.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0000 0.0630 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_FullAutoRifle
+	{
+		mesh = weapons/firearm/TLOG_FullAutoRifle,
+		texture = weapons/firearm/TLOG_FullAutoRifle,
+
+		attachment scope2
+		{
+			offset = 0.0020 0.0600 0.0810,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.3510 0.0210,
+			rotate = -92.0000 0.0000 -90.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0010 0.3280 0.0200,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.1010 -0.0060,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0020 0.0420 0.0800,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddotmount
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.3160 0.0210,
+			rotate = -2.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0010 0.3380 0.0200,
+			rotate = -2.0000 0.0000 0.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0020 0.0370 0.0790,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_9mmPistol
+	{
+		mesh = weapons/firearm/TLOG_9mmPistol,
+		texture = weapons/firearm/TLOG_9mmPistol,
+
+		attachment muzzle
+		{
+			offset = 0.0030 0.1360 -0.0350,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.1360 -0.0350,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0030 0.0310 -0.0340,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0030 0.1350 -0.0350,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0030 0.1320 -0.0350,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0070 0.0880 -0.0180,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model TLOG_SmallRevolver
+	{
+		mesh = weapons/firearm/TLOG_SmallRevolver,
+		texture = weapons/firearm/TLOG_SmallRevolver,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1360 -0.0330,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.1360 -0.0350,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0580 -0.0330,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.1280 -0.0310,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0000 0.1300 -0.0310,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0030 0.0920 -0.0170,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model TLOG_ElDiablo
+	{
+		mesh = weapons/firearm/TLOG_ElDiablo,
+		texture = weapons/firearm/TLOG_ElDiablo,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2310 -0.0370,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.2300 -0.0370,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0950 -0.0380,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.1060 -0.0420,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0000 0.1070 -0.0460,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0960 -0.0490,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.2220 -0.0370,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0000 0.2240 -0.0380,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0520 -0.0270,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0040 0.1100 -0.0190,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model TLOG_Pumpshotgun1
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun1,
+		texture = weapons/firearm/TLOG_Pumpshotgun1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0250,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4140 0.0270,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1090 0.0340,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.3760 0.0060,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0000 0.1270 0.0390,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment shellholder
+		{
+			offset = 0.0060 0.0790 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_Pumpshotgun2
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun2,
+		texture = weapons/firearm/TLOG_Pumpshotgun1,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0250,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4140 0.0270,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1090 0.0340,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.3760 0.0060,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0000 0.1270 0.0390,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+		attachment shellholder
+		{
+			offset = 0.0060 0.0790 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_Shorty
+	{
+		mesh = weapons/firearm/TLOG_Shorty,
+		texture = weapons/firearm/TLOG_Shorty,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2800 -0.0230,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0010 0.2850 -0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0950 -0.0380,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.1050 -0.0400,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddotmount
+		{
+			offset = 0.0010 0.0420 0.0380,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment shellholder
+		{
+			offset = -0.0140 0.0930 -0.0170,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+	}
+	model TLOG_TacticalShotgun
+	{
+		mesh = weapons/firearm/TLOG_TacticalShotgun,
+		texture = weapons/firearm/TLOG_TacticalShotgun,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4150 0.0310,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.0630 0.0480,
+			rotate = -7.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4160 0.0310,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0770 0.0430,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.3770 0.0110,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0040 0.1110 0.0480,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment shellholder
+		{
+			offset = 0.0140 0.0520 0.0310,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_MilitaryPistol
+	{
+		mesh = weapons/firearm/TLOG_MilitaryPistol,
+		texture = weapons/firearm/TLOG_MilitaryPistol,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.1380 -0.0290,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.1350 -0.0290,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0950 -0.0380,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0310 -0.0300,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.1320 -0.0280,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0000 0.1320 -0.0290,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0040 0.1000 -0.0020,
+			rotate = 179.0000 0.0000 180.0000,
+		}
+	}
+	model TLOG_HuntingPistol
+	{
+		mesh = weapons/firearm/TLOG_HuntingPistol,
+		texture = weapons/firearm/TLOG_HuntingPistol,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2440 -0.0460,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.2400 -0.0460,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1040 -0.0380,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0310 -0.0300,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.1020 -0.0500,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0000 0.0850 -0.0490,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.2330 -0.0470,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0000 0.2350 -0.0460,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model TLOG_HuntingPistol_open
+	{
+		mesh = weapons/firearm/TLOG_HuntingPistol_open,
+		texture = weapons/firearm/TLOG_HuntingPistol,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2800 -0.0230,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.2190 -0.0130,
+			rotate = 156.0000 0.0000 180.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0950 0.0370,
+			rotate = -24.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0310 -0.0300,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0000 0.0910 0.0520,
+			rotate = -26.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0950 0.0500,
+			rotate = -25.0000 0.0000 0.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.2090 -0.0070,
+			rotate = -26.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0000 0.2140 -0.0100,
+			rotate = -25.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_DoubleBarrelShotgun
+	{
+		mesh = weapons/firearm/TLOG_DoubleBarrelShotgun,
+		texture = weapons/firearm/TLOG_DoubleBarrelShotgun,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4520 0.0240,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4540 0.0240,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.1770 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 -0.0230 -0.0040,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.1460 0.0320,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment shellholder
+		{
+			offset = -0.0080 0.1640 0.0160,
+			rotate = 0.0000 0.0000 -180.0000,
+		}
+
+		attachment grip
+		{
+			offset = 0.0000 0.2050 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0090 0.0000 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0030 0.2020 0.0380,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+	model TLOG_DoubleBarrelShotgun_open
+	{
+		mesh = weapons/firearm/TLOG_DoubleBarrelShotgun_open,
+		texture = weapons/firearm/TLOG_DoubleBarrelShotgun,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.2800 -0.0230,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4230 -0.1340,
+			rotate = -28.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0950 0.0370,
+			rotate = -24.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.1560 0.0240,
+			rotate = -27.0000 0.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 -0.0130 -0.0270,
+			rotate = -10.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0160 0.0620,
+			rotate = -29.0000 0.0000 0.0000,
+		}
+
+		attachment reddotmount
+		{
+			offset = 0.0000 0.0840 -0.0180,
+			rotate = -30.0000 0.0000 0.0000,
+		}
+
+		attachment shellholder
+		{
+			offset = -0.0090 0.1650 -0.0020,
+			rotate = -29.0000 0.0000 180.0000,
+		}
+
+		attachment grip
+		{
+			offset = 0.0000 0.1920 -0.0350,
+			rotate = -28.0000 0.0000 0.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0000 0.2080 0.0000,
+			rotate = 151.0000 0.0000 180.0000,
+		}
+	}
+	model TLOG_SemiAutoRifleAbby
+	{
+		mesh = weapons/firearm/TLOG_SemiAutoRifleAbby,
+		texture = weapons/firearm/TLOG_SemiAutoRifleAbby,
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4530 0.0290,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.0490 0.0010,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 0.2870 0.0070,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0000 0.4230 0.0290,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0000 0.0600 0.0590,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment stock
+		{
+			offset = 0.0000 0.0380 -0.0370,
+			rotate = 8.0000 0.0000 0.0000,
+		}
+
+		attachment scope
+		{
+			offset = 0.0000 0.0520 0.0430,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.0580 0.0610,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.4280 0.0290,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0000 0.4430 0.0290,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0000 0.0540 0.0590,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment grip
+		{
+			offset = 0.0000 0.2240 0.0090,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0050 0.0880 0.0650,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+	}
+}

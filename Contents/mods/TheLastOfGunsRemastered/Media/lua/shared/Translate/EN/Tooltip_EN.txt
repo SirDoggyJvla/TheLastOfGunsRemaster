@@ -1,0 +1,22 @@
+Tooltip_EN = {
+	-- Item tooltip
+	Tooltip_FullAutoRifleStock = "The stock provides a means for the shooter to firmly brace the gun.",
+	Tooltip_VariableScope = "Scope with variable magnifications. Doesn't give penality if shooting close targets, but slighly increases aiming time",
+	Tooltip_FullAutoRifleImprovisedStock = "Improvised stock made of available materials, still better than nothing.",
+	Tooltip_TLOGGrip = "Grip provides better control of the firearm.",
+	Tooltip_TLOGImprovisedFlashlight = "Flashlight ducttaped to the gun. Provides light, but bulkiness has slight negative impact. ",
+	Tooltip_TLOGMuzzleBrake = "Barrel attachment. Decreases recoil and slightly improves aiming time.",
+	Tooltip_TLOGFlashhider = "Barrel attachment. Improves aiming time and slightly decreases recoil.",
+	Tooltip_TLOGImprovisedSuppressor = "Improvised Barrel attachment. Reduces sound of a gun shot, slightly increases aiming time. Will withstand reasonable amount of time",
+	Tooltip_TLOGBottleSuppressor = "Improvised Barrel attachment. Reduces sound of a gun shot and increaseses aiming time. Might break at any moment.",
+	Tooltip_TLOGExpandedMag = "Increases internal magazine capacity of a weapon",
+	Tooltip_TLOGShotgunChoke = "Shotgun Barrel attachment. Decreases spread, increasing range and damage.",
+	Tooltip_TLOGShotgunSpreader = "Shotgun Barrel attachment. Increases spread, allowing to hit more targets, decreases damage.",
+	Tooltip_TLOGPipeMuzzleBrake = "Improvised Barrel attachment. Decreases recoil and slightly improves aiming time.",
+	Tooltip_TLOGPipeFlashhider = "Improvised Barrel attachment. Improves aiming time and slightly decreases recoil.",
+	Tooltip_CarbonFiberBarrel = "Carbon Fiber barrel. Provides higher heat resistance, prolonges service life of a firearm and slightly improves accuracy",
+	Tooltip_SpareParts = "Spare parts from various small firearms. Will slightly improve overall performance and durability",
+	Tooltip_SpareParts2 = "Spare parts from various long firearms. Will slightly improve overall performance and durability",
+	Tooltip_ElDiabloBarrel = "Reinforced Barrel. Increases velocity of the bullet, allowing it to pierce throught soft targets",
+	Tooltip_ElDiabloExpandedMag = "Reinforced Barrel. Increases velocity of the bullet, allowing it to pierce throught soft targets",
+	}

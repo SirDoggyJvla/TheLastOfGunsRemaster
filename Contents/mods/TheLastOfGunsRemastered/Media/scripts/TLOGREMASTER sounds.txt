@@ -1,0 +1,37 @@
+module Base
+{
+	sound TLOGSilencedSound
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = Media/sound/TLOGSilencedBottle.ogg, distanceMax = 25, volume = 1f, }
+		maxInstancesPerEmitter = 3,
+	}
+	sound TLOGSiliencedSupp
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = Media/sound/TLOGSiliencedSupp.ogg, distanceMax = 21, volume = 0.6f, }
+		maxInstancesPerEmitter = 3,
+	}
+	sound FlamethrowerFire
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = media/sound/Flamethrower.ogg, distanceMax = 30, volume = 0.2f, }
+		maxInstancesPerEmitter = 2,
+	}
+	sound FlamethrowerReload1
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = media/sound/flamethrowerfasterreload.ogg, distanceMax = 7, volume = 0.6f, }
+	}
+	sound FlamethrowerReload2
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = media/sound/flamethrowerreloadempty.ogg, distanceMax = 7, volume = 0.6f, }
+	}
+	sound FlamethowerRack
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = media/sound/flamethrowerrack.ogg, distanceMax = 7, volume = 0.1f, }
+	}
+
+}

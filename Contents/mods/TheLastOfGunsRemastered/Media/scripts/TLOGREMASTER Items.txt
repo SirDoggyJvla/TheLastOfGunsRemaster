@@ -1,0 +1,141 @@
+module Base
+{
+	model TLOG_ImprovisedCleaningKit
+	{
+	mesh = WorldItems/TLOG_ImprovisedCleaningKit,
+	texture = WorldItems/TLOG_ImprovisedCleaningKit,
+	}
+	item TLOG_ImprovisedCleaningKit
+    {
+        DisplayCategory = Material,
+        Weight	=	0.3,
+        Type	=	Drainable,
+        UseDelta	=	0.5,
+        UseWhileEquipped	=	FALSE,
+        DisplayName	=	Improvised Cleaning Kit,
+        Icon	=	ImprovisedCleaningKit,
+        Tooltip = Tooltip_FixItems,
+		cantBeConsolided = TRUE,
+        SurvivalGear = TRUE,
+        WorldStaticModel = TLOG_ImprovisedCleaningKit,
+    }
+	item TLOG_HandlessShovel
+    {
+        DisplayCategory = Gardening,
+        Type				=			Weapon,
+        DisplayName			=		Handless Shovel,
+        Icon				=		Shovel,
+        Weight				=		1.5,
+        SubCategory    		=     Swinging,
+        MinAngle			=			0.85,
+        MaxRange 			= 			1.6,
+        MinRange 			= 			0.61,
+        PushBackMod			=			0.5,
+        HitAngleMod			=			-30.0,
+        SwingAnim			=			Bat,
+        MaxHitCount 		=			3,
+        WeaponSprite	=	TLOG_HandlessShovel,
+        IdleAnim			=			Idle_Weapon2,
+        RunAnim				=			Run_Weapon2,
+        Weight				=			1.5,
+        DoorDamage			=			10,
+        MinimumSwingTime 	= 			2.1,
+        SwingTime			=			2.1,
+        SwingAmountBeforeImpact = 		0.02,
+        ConditionLowerChanceOneIn 	= 	9,
+        ConditionMax 		= 			8,
+        Categories 			=			Blunt,
+        TwoHandWeapon = TRUE,
+        BreakSound  =   ShovelBreak,
+        DoorHitSound = ShovelHit,
+		HitSound = ShovelHit,
+		HitFloorSound = ShovelHit,
+		SwingSound = ShovelSwing,
+        KnockdownMod	=	2,
+        KnockBackOnNoDeath	=	TRUE,
+        MetalValue = 70,
+        TreeDamage = 1,
+        CriticalChance	=	40,
+        CritDmgMultiplier = 2,
+        MaxDamage			=			1.7,
+        MinDamage			=			0.8,
+        BaseSpeed = 0.9,
+       	WeaponLength = 0.50,
+        DamageCategory = Slash,
+        DamageMakeHole = TRUE,
+        AttachmentType = Shovel,
+        Tags = ClearAshes;DigGrave;DigPlow;TakeDirt,
+     }
+	model TLOG_HandlessShovel
+	{
+		mesh = weapons/firearm/TLOG_HandlessShovel,
+		texture = weapons/2handed/Shovel02,
+
+		attachment world
+		{
+			offset = -0.0160 -0.1940 0.0290,
+			rotate = 0.0000 90.0000 0.0000,
+		}
+	}
+	item TLOG_SmallMetalPipe
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.3,
+        Type	=	Normal,
+        DisplayName	=	Small Metal Pipe,
+        Icon	=	MetalTube,
+        MetalValue = 10,
+        WorldStaticModel = TLOG_SmallMetalPipe,
+    }
+	item TLOG_Socket
+	{
+        DisplayCategory = Junk,
+        Weight	=	0.2,
+        Type	=	Normal,
+        DisplayName	=	Wrench Socket,
+        Icon	=	Socket,
+        MetalValue = 10,
+        WorldStaticModel = TLOG_Socket,
+    }
+	model TLOG_SmallMetalPipe
+	{
+		mesh = weapons/firearm/TLOG_SmallMetalPipe,
+		texture = weapons/firearm/TLOG_SmallMetalPipe,
+	}
+	model TLOG_SmallMetalPipeCrafting
+	{
+		mesh = weapons/firearm/TLOG_SmallMetalPipeCrafting,
+		texture = weapons/firearm/TLOG_SmallMetalPipe,
+	}
+	model TLOG_CraftingDuctTape
+	{
+		mesh = WorldItems/DuctTape,
+		texture = WorldItems/DuctTape,
+		scale = 0.3,
+	}
+	model TLOG_ImprovisedSuppressorBrokenCrafting
+	{
+		mesh = weapons/firearm/TLOG_ImprovisedSuppressorBrokenCrafting,
+		texture = weapons/firearm/TLOG_Attachments,
+	}
+	model TLOG_PlankCraft
+	{
+		mesh = weapons/firearm/TLOG_PlankCraft,
+		texture = weapons/firearm/TLOG_PlankCraft,
+	}
+	model TLOG_ShovelCraft
+	{
+		mesh = weapons/firearm/TLOG_ShovelCraft,
+		texture = weapons/2handed/Shovel02,	
+	}
+	model TLOG_Socket
+	{
+		mesh = weapons/firearm/TLOG_Socket,
+		texture = weapons/firearm/TLOG_PipeAttachments,	
+	}
+	model TLOG_SocketCraft
+	{
+		mesh = weapons/firearm/TLOG_SocketCraft,
+		texture = weapons/firearm/TLOG_PipeAttachments,	
+	}
+}

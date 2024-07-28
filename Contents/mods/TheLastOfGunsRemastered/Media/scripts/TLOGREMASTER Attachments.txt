@@ -1,0 +1,785 @@
+module Base
+{
+ 
+
+	/****************************** Others******************************/
+	item TLOG_SpareParts
+	{
+        DisplayCategory = WeaponPart,
+        Weight	=	1.2,
+        Type	=	WeaponPart,
+        DisplayName	=	Factory New Firearm Parts (Small Firearms),
+		WeightModifier = 0,
+		HitChanceModifier = 1,
+		AimingTimeModifier = 1,
+		RecoilDelayModifier = -5.0,
+		PartType = Stock,
+        Icon	=	BarrelUpgrade,
+		MountOn = Pistol;Pistol2;Pistol3;Revolver; Revolver_Long; Revolver_Short;TLOG_9mmPistol;TLOG_MilitaryPistol; TLOG_SmallRevolver;TLOG_Eldiablo;TLOG_HuntingPistol;TLOG_Shorty,
+        MetalValue = 10,
+		Tooltip = Tooltip_SpareParts,
+        WorldStaticModel = TLOG_SmallArmUpgrade1,
+		Tags = CarbonFiberBarrelTLOG,
+    }
+	item TLOG_SpareParts2
+	{
+        DisplayCategory = WeaponPart,
+        Weight	=	1.2,
+        Type	=	WeaponPart,
+        DisplayName	=	Factory New Firearm Parts (Long Firearms),
+		WeightModifier = 0,
+		HitChanceModifier = 1,
+		AimingTimeModifier = 1,
+		RecoilDelayModifier = -5.0,
+		PartType = Stock,
+        Icon	=	BarrelUpgrade,
+		MountOn = AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_MPX;TLOG_AssaultRifle;TLOG_Specter;TLOG_FullAutoRifle;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_SemiAutoRifleAbby,
+        MetalValue = 10,
+		Tooltip = Tooltip_SpareParts2,
+        WorldStaticModel = TLOG_SmallArmUpgrade1,
+		Tags = CarbonFiberBarrelTLOG,
+    }
+	item TLOG_CFBarrelUpgrade
+	{
+        DisplayCategory = WeaponPart,
+        Weight	=	1.2,
+        Type	=	WeaponPart,
+        DisplayName	=	Carbon Fiber Barrel,
+		WeightModifier = -0.7,
+		HitChanceModifier = 3,
+		AimingTimeModifier = 3,
+		PartType = Stock,
+        Icon	=	BarrelUpgrade,
+		MountOn =  AssaultRifle;AssaultRifle2;TLOG_MPX;TLOG_AssaultRifle;TLOG_Specter;TLOG_FullAutoRifle,
+        MetalValue = 10,
+		Tooltip = Tooltip_CarbonFiberBarrel,
+        WorldStaticModel = TLOG_BarrelUpgrade,
+		Tags = CarbonFiberBarrelTLOG,
+    }
+	item TLOG_CFBarrelUpgrade2
+	{
+        DisplayCategory = WeaponPart,
+        Weight	=	1.5,
+        Type	=	WeaponPart,
+        DisplayName	=	Carbon Fiber Barrel (Long Firearm),
+		WeightModifier = -0.8,
+		HitChanceModifier = 3,
+		AimingTimeModifier = 3,
+		PartType = Stock,
+        Icon	=	LongBarrelUpgrade,
+		MountOn = HuntingRifle;VarmintRifle;TLOG_HuntingRifle; TLOG_MilitarySniper;TLOG_SemiAutoRifleAbby,
+        MetalValue = 10,
+		Tooltip = Tooltip_CarbonFiberBarrel,
+        WorldStaticModel = TLOG_LongBarrelUpgrade,
+		Tags = CarbonFiberBarrelTLOG,
+    }
+	item TLOG_LaserSight
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Laser Attachment,
+        Icon = HandgunLaser,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        HitChanceModifier = 5,
+        MountOn = Pistol;Pistol2;Pistol3;AssaultRifle;AssaultRifle2;TLOG_MPX;TLOG_MilitarySniper;TLOG_Specter;TLOG_SemiAutoRifleAbby;TLOG_FullAutoRifle;TLOG_AssaultRifle;TLOG_TacticalShotgun;TLOG_DoubleBarrelShotgun;TLOG_Pumpshotgun1;TLOG_Pumpshotgun2;TLOG_9mmPistol;TLOG_MilitaryPistol;TLOG_SmallRevolver;TLOG_MilitaryPistol;TLOG_Eldiablo,
+        PartType = Sling,
+        Tooltip = Tooltip_Laser,
+        MetalValue = 15,
+        WorldStaticModel = TLOG_LaserSightGround,
+    }
+	item TLOG_ElDiabloBarrelUpgrade
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Reinforced Barrel(Taurus Raging Bull),
+        Icon = ElDiabloBarrelUpgrade,
+        Weight = 0.2,
+        WeightModifier = 0.1,
+		AimingTimeModifier = 1,
+        MountOn = TLOG_Eldiablo,
+        PartType = Canon,
+        Tooltip = Tooltip_ElDiabloBarrel,
+		WorldStaticModel = TLOG_ElDiabloBarrelUpgrade,
+    }
+		item TLOG_Grip
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Vertical Grip,
+        Icon = TLOGGrip,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        RecoilDelayModifier = -10.0,
+		AimingTimeModifier = 2,
+        MountOn = TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_TLOGGrip,
+        WorldStaticModel = TLOG_Grip,
+    }
+		item TLOG_ForwardGrip
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Curved Grip,
+        Icon = CurvedGrip,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        RecoilDelayModifier = -10.0,
+		AimingTimeModifier = 2,
+        MountOn = TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_TLOGGrip,
+        WorldStaticModel = TLOG_ForwardGrip,	
+    }
+		item TLOG_PlankGrip
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Vertical Grip (Planks),
+        Icon = PlankGrip,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        RecoilDelayModifier = -3.0,
+		AimingTimeModifier = 1,
+        MountOn = TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter;TLOG_DoubleBarrelShotgun,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_TLOGGrip,
+        WorldStaticModel = TLOG_PlankGrip,
+    }
+		item TLOG_GripWood
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Vertical Grip (Wooden),
+        Icon = TLOGGrip,
+        Weight = 0.15,
+        WeightModifier = 0.15,
+        RecoilDelayModifier = -7.0,
+		AimingTimeModifier = 1,
+        MountOn = TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_TLOGGrip,
+        WorldStaticModel = TLOG_GripWood,
+    }
+		item TLOG_ForwardGripWood
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Curved Grip (Wooden),
+        Icon = CurvedGrip,
+        Weight = 0.15,
+        WeightModifier = 0.15,
+        RecoilDelayModifier = -7.0,
+		AimingTimeModifier = 2,
+        MountOn = TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_TLOGGrip,
+        WorldStaticModel = TLOG_ForwardGripWood,	
+    }
+		item TLOG_FullAutoRifleStock
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Wooden Stock,
+        Icon = FullAutoRifleStock,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        RecoilDelayModifier = -5.0,
+		AimingTimeModifier = 3,
+        MountOn = TLOG_FullAutoRifle,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_FullAutoRifleStock,
+        WorldStaticModel = TLOG_FullAutoRifleStock,	
+    }
+	
+		item TLOG_FullAutoRifleImprovisedStock
+	{
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Improvised Stock (Shovel Handle),
+        Icon = FullAutoRifleStock,
+        Weight = 0.5,
+        WeightModifier = 0.5,
+        RecoilDelayModifier = -3.0,
+		AimingTimeModifier = 1,
+        MountOn = TLOG_FullAutoRifle,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_FullAutoRifleImprovisedStock,
+        WorldStaticModel = TLOG_FullAutoRifleImprovisedStock,	
+    }
+		item TLOG_FullAutoRiflePlankStock
+	{
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Improvised Stock (Plank),
+        Icon = FullAutoRifleStock,
+        Weight = 0.6,
+        WeightModifier = 0.6,
+        RecoilDelayModifier = -1.0,
+		AimingTimeModifier = 1,
+        MountOn = TLOG_FullAutoRifle,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_FullAutoRifleImprovisedStock,
+        WorldStaticModel = TLOG_FullAutoRiflePlankStock,	
+    }
+	item TLOG_WeaponFlashlight
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Gun Light,
+        Icon = Flashlight2,
+        Weight = 1,
+        WeightModifier = 1.0,
+        AimingTimeModifier = 5,
+        MountOn = TLOG_HuntingRifle;TLOG_DoubleBarrelShotgun;TLOG_Specter;TLOG_MPX;TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_TacticalShotgun;TLOG_Pumpshotgun1;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_Shorty,
+        PartType = Sling,
+        MetalValue = 15,
+        WorldStaticModel = TLOG_WeaponFlashlight_ground,
+		Tooltip = Tooltip_TLOGImprovisedFlashlight,
+		Tags = TLOGImprovisedLight,
+    }
+	/****************************** Slings******************************/
+	 item TLOG_Sling
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Firearm Sling,
+        Icon = TLOGSling,
+        Weight = 0.2,
+        WeightModifier = -0.8,
+        MountOn = Shotgun;AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_Pumpshotgun1;TLOG_TacticalShotgun;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter;TLOG_DoubleBarrelShotgun,
+        PartType = Sling,
+        Tooltip = Tooltip_Sling,
+		WorldStaticModel = TLOG_SlingGround,
+    }
+	 item TLOG_SlingDuctTape
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Improvised Firearm Sling (DuctTape),
+        Icon = TLOGSling,
+        Weight = 0.2,
+        WeightModifier = -0.5,
+        MountOn = Shotgun;AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_TacticalShotgun;TLOG_AssaultRifle;TLOG_Pumpshotgun1;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter;TLOG_DoubleBarrelShotgun,
+        PartType = Sling,
+        Tooltip = Tooltip_Sling,
+		WorldStaticModel = TLOG_DuctTapeSlingGround,
+    }
+	item TLOG_SlingSheetRope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Improvised Firearm Sling (SheetRope),
+        Icon = TLOGSling,
+        Weight = 0.8,
+        WeightModifier = -0.4,
+        MountOn = Shotgun;AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_TacticalShotgun;TLOG_AssaultRifle;TLOG_Pumpshotgun1;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter;TLOG_DoubleBarrelShotgun,
+        PartType = Sling,
+        Tooltip = Tooltip_Sling,
+		WorldStaticModel = TLOG_SheetRopeSlingGround,
+    }
+	item TLOG_SlingRope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Improvised Firearm Sling (Rope),
+        Icon = TLOGSling,
+        Weight = 0.3,
+        WeightModifier = -0.5,
+        MountOn = Shotgun;AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_TacticalShotgun;TLOG_AssaultRifle;TLOG_Pumpshotgun1;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter;TLOG_DoubleBarrelShotgun,
+        PartType = Sling,
+        Tooltip = Tooltip_Sling,
+		WorldStaticModel = TLOG_RopeSlingGround,
+    }
+	item TLOG_SlingBelt
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Improvised Firearm Sling (Belt),
+        Icon = TLOGSling,
+        Weight = 0.3,
+        WeightModifier = -0.6,
+        MountOn = Shotgun;AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_TacticalShotgun;TLOG_AssaultRifle;TLOG_Pumpshotgun1;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter;TLOG_DoubleBarrelShotgun,
+        PartType = Sling,
+        Tooltip = Tooltip_Sling,
+		WorldStaticModel = TLOG_BeltSlingGround,
+    }
+	/****************************** Scopes,sights ******************************/
+
+
+	item TLOG_x2Scope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = ACOG,
+        Icon = x2ScopeTLOG,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        MaxRangeModifier = 7,
+        MinRangeModifier = 6,
+        MountOn = AssaultRifle;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_MPX;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_Specter,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+        WorldStaticModel = TLOG_x2Scope,
+    }
+	 
+    item TLOG_x4Scope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Scope (x4),
+        Icon = TLOGScope,
+        Weight = 0.4,
+        WeightModifier = 0.4,
+        MaxRangeModifier = 13,
+        MinRangeModifier = 8,
+        MountOn = AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_MPX;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_Specter,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+        WorldStaticModel = TLOG_x4Scope,
+    }
+
+    item TLOG_x8Scope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Scope (x8),
+        Icon = TLOGScope,
+        Weight = 0.5,
+        WeightModifier = 0.5,
+        MaxRangeModifier = 20,
+        MinRangeModifier = 10,
+        MountOn = AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_MPX;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_Specter,
+        PartType = Scope,
+        Tooltip = Tooltip_Scope,
+        MetalValue = 22,
+        WorldStaticModel = TLOG_x8Scope,
+    }
+	item TLOG_VariableScope
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Scope (Variable),
+        Icon = TLOGScope,
+        Weight = 0.4,
+        WeightModifier = 0.4,
+        MaxRangeModifier = 14,
+        MinRangeModifier = 1,
+		AimingTimeModifier = -8,
+        MountOn = AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_MPX;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_Specter,
+        PartType = Scope,
+        Tooltip = Tooltip_VariableScope,
+        MetalValue = 22,
+        WorldStaticModel = TLOG_VariableScope,
+    }
+	
+	 item TLOG_Holosight
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Holographic sight,
+        Icon = RedDotClosed,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        AimingTimeModifier = 6,
+		MaxRangeModifier = 1,
+        MountOn = Shotgun;AssaultRifle;AssaultRifle2;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_MPX;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_Specter;TLOG_Shorty;TLOG_DoubleBarrelShotgun;TLOG_TacticalShotgun;TLOG_Pumpshotgun1;TLOG_Pumpshotgun2,
+        PartType = Scope,
+        Tooltip = Tooltip_RedDot,
+        StaticModel = TLOG_Holosight,
+        MetalValue = 15,
+        WorldStaticModel = TLOG_Holosight,
+    }
+	 item TLOG_RedDot
+	 
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName =  Red Dot (Enclosed),
+        Icon = RedDotClosed,
+        Weight = 0.3,
+        WeightModifier = 0.2,
+        AimingTimeModifier = 6,
+        MountOn = Shotgun;AssaultRifle;AssaultRifle2;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_MPX;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_Specter;TLOG_DoubleBarrelShotgun;TLOG_TacticalShotgun;TLOG_Pumpshotgun1;TLOG_Pumpshotgun2;TLOG_Shorty,
+        PartType = Scope,
+        Tooltip = Tooltip_RedDot,
+        StaticModel = TLOG_RedDot,
+        MetalValue = 15,
+        WorldStaticModel = TLOG_RedDot,
+    }
+	 item TLOG_RedDot2
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Red Dot (Open),
+        Icon = RedDotOpen,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        AimingTimeModifier = 7,
+        MountOn = Shotgun;Pistol;Pistol2;Pistol3;AssaultRifle;AssaultRifle2;TLOG_9mmPistol;TLOG_MilitaryPistol;TLOG_HuntingRifle;TLOG_MilitarySniper;TLOG_AssaultRifle;TLOG_MPX;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_DoubleBarrelShotgun;TLOG_TacticalShotgun;TLOG_Pumpshotgun1;TLOG_Pumpshotgun2;TLOG_Specter;TLOG_Shorty,
+        PartType = Scope,
+        Tooltip = Tooltip_RedDot,
+        StaticModel = TLOG_RedDot2,
+        MetalValue = 15,
+        WorldStaticModel = TLOG_RedDot2,
+    }
+	 
+	/****************************** RecoilPads******************************/
+	item TLOG_RecoilPad
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Leather Recoil Pad,
+        Icon = RifleRecoilPad,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        RecoilDelayModifier = -10.0,
+		AimingTimeModifier = 2,
+        MountOn = TLOG_HuntingRifle,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_RecoilPad,
+        WorldStaticModel = TLOG_RecoilPad,
+    }
+	item TLOG_Pumpshotgun1Recoilpad
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Recoil Pad (Shotgun),
+        Icon = RifleRecoilPad,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        RecoilDelayModifier = -10.0,
+		AimingTimeModifier = 2,
+        MountOn = TLOG_Pumpshotgun1,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_RecoilPad,
+        WorldStaticModel = TLOG_Pumpshotgun1Recoilpad,
+    }
+	item TLOG_ShellHolder
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Shell Holder,
+        Icon = ShellHolder,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        ReloadTimeModifier = -10,
+        MountOn = Shotgun;TLOG_Pumpshotgun1;TLOG_Pumpshotgun2;TLOG_Shorty;TLOG_TacticalShotgun;TLOG_DoubleBarrelShotgun,
+        PartType = RecoilPad,
+        Tooltip = Tooltip_RecoilPad,
+        WorldStaticModel = TLOG_ShellHolder,
+    }
+	 
+	/****************************** Barrel attachments******************************/
+	 item TLOG_MuzzleBrake
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Muzzle Brake,
+        Icon = TLOGMuzzleBrake,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        DamageModifier = 0.2,
+		AimingTimeModifier = 3,
+		HitChanceModifier = 3,
+        MountOn = AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGMuzzleBrake,
+        WorldStaticModel = TLOG_MuzzleBrake,
+    }
+	item TLOG_FlashHider
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Flash Hider,
+        Icon = TLOGFlashHider,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        DamageModifier = 0.2,
+		AimingTimeModifier = 1,
+		HitChanceModifier = 5,
+        MountOn = AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_Specter;TLOG_MPX,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGFlashhider,
+        WorldStaticModel = TLOG_FlashHider,
+    }
+	 item TLOG_PipePistolMuzzleBrake
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Pistol Muzzle Brake(Pipe),
+        Icon = ShotgunChoke,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        DamageModifier = 0.1,
+		AimingTimeModifier = 2,
+		HitChanceModifier = 2,
+        MountOn = Pistol;Pistol2;Pistol3;TLOG_9mmPistol;TLOG_MilitaryPistol,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGPipeMuzzleBrake,
+        WorldStaticModel = TLOG_PipePistolMuzzleBrake,
+    }
+	 item TLOG_PipeMuzzleBrake
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Muzzle Brake (Pipe),
+        Icon = ShotgunChoke,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        DamageModifier = 0.1,
+		AimingTimeModifier = 3,
+		HitChanceModifier = 1,
+        MountOn = AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGPipeMuzzleBrake,
+        WorldStaticModel = TLOG_PipeMuzzleBrake,
+    }
+	item TLOG_PipeFlashHider
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Flash Hider (Pipe),
+        Icon = ShotgunChoke,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        DamageModifier = 0.1,
+		AimingTimeModifier = 1,
+		HitChanceModifier = 3,
+        MountOn = AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_Specter;TLOG_MPX,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGPipeFlashhider,
+        WorldStaticModel = TLOG_PipeFlashHider,
+    }
+	 item TLOG_LugWrenchMuzzleBrake
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Muzzle Brake (Socket),
+        Icon = SocketMuzzle,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        DamageModifier = 0.1,
+		AimingTimeModifier = 2,
+		HitChanceModifier = 1,
+        MountOn = Pistol;Pistol2;Pistol3;AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX;TLOG_Specter;TLOG_9mmPistol;TLOG_MilitaryPistol,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGPipeMuzzleBrake,
+        WorldStaticModel = TLOG_LugWrenchMuzzleBrake,
+    }
+	item TLOG_LugWrenchFlashHider
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Flash Hider (Socket),
+        Icon = SocketMuzzle,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        DamageModifier = 0.1,
+		AimingTimeModifier = 1,
+		HitChanceModifier = 2,
+        MountOn = Pistol;Pistol2;Pistol3;AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_Specter;TLOG_MPX;TLOG_9mmPistol;TLOG_MilitaryPistol,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGPipeFlashhider,
+        WorldStaticModel = TLOG_LugWrenchFlashHider,
+    }
+	 item TLOG_MilitarySuppressor
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Military Suppressor,
+		ConditionMax	=	30,
+        Icon = MilitarySuppressor,
+        Weight = 0.4,
+        WeightModifier = 0.4,	
+        MountOn = AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_Specter;TLOG_AssaultRifle;TLOG_FullAutoRifle;TLOG_SemiAutoRifleAbby;TLOG_MPX,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGImprovisedSuppressor,
+        WorldStaticModel = TLOG_MilitarySuppressor,
+		Tags = Suppressor,
+    }
+	item TLOG_MilitarySuppressorBroken
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Broken Military Suppressor,
+        Icon	=	TLOGImprovisedSuppressor,
+        WorldStaticModel = TLOG_MilitarySuppressorBroken,
+    }
+	
+	 item TLOG_ImprovisedSuppressor
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Improvised Suppressor,
+		ConditionMax	=	10,
+        Icon = TLOGImprovisedSuppressor,
+        Weight = 0.4,
+        WeightModifier = 0.4,
+        DamageModifier = -0.1,
+		HitChanceModifier = -2,
+        MountOn = Pistol;Pistol2;Pistol3;AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_HuntingPistol;TLOG_Specter;TLOG_AssaultRifle;TLOG_9mmPistol;TLOG_FullAutoRifle;TLOG_MilitaryPistol;TLOG_SemiAutoRifleAbby;TLOG_MPX,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGImprovisedSuppressor,
+        WorldStaticModel = TLOG_ImprovisedSuppressor,
+		Tags = Suppressor,
+    }
+	 item TLOG_BottleSuppressor
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Bottle Suppressor,
+		ConditionMax	=	2,
+        Icon = WaterBottle_Empty,
+        Weight = 0.4,
+        WeightModifier = 0.4,
+        DamageModifier = -0.2,
+		HitChanceModifier = -3,
+		AimingTimeModifier = -2,
+        MountOn = Pistol;Pistol2;Pistol3;AssaultRifle;AssaultRifle2;HuntingRifle;VarmintRifle;TLOG_HuntingRifle;TLOG_HuntingPistol;TLOG_Specter;TLOG_AssaultRifle;TLOG_9mmPistol;TLOG_FullAutoRifle;TLOG_MilitaryPistol;TLOG_SemiAutoRifleAbby;TLOG_MPX,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGBottleSuppressor,
+        WorldStaticModel = TLOG_BottleSuppressor,
+		Tags = Suppressor,
+    }
+	item TLOG_BottleSuppressorBroken
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Broken Bottle Suppressor,
+        Icon	=	WaterBottle_Empty,
+        WorldStaticModel = TLOG_BottleSuppressorBroken,
+    }
+	
+	item TLOG_ImprovisedSuppressorBroken
+    {
+        DisplayCategory = Junk,
+        Weight	=	0.4,
+        Type	=	Normal,
+        DisplayName	=	Broken Improvised Suppressor,
+        Icon	=	TLOGImprovisedSuppressor,
+        WorldStaticModel = TLOG_ImprovisedSuppressorBroken,
+    }
+	item TLOG_PipeDoubleBarrelChoke
+	{
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Double Barrel Shotgun Choke (Pipe),
+        Icon = PumpShotgunMuzzle,
+        Weight = 0.15,
+        WeightModifier = 0.15,
+        DamageModifier = 0.4,
+		MaxRangeModifier = 2,
+        MountOn = TLOG_DoubleBarrelShotgun,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGShotgunChoke,
+        WorldStaticModel = TLOG_PipeDoubleBarrelChoke,
+    }
+	item TLOG_PipeDoubleBarrelSpreader
+	{
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Double Barrel Shotgun Spreader (Pipe),
+        Icon = PumpShotgunMuzzle,
+        Weight = 0.15,
+        WeightModifier = 0.15,
+        DamageModifier =  -0.5,
+		MaxRangeModifier = -1,
+        MountOn = TLOG_DoubleBarrelShotgun,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGShotgunSpreader,
+        WorldStaticModel = TLOG_PipeDoubleBarrelSpreader,
+		Tags= TLOGSpreader,
+    }
+	item TLOG_ShotgunChoke
+	{
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Shotgun Choke,
+        Icon = PumpShotgunMuzzle,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        DamageModifier = 0.7,
+		MaxRangeModifier = 3,
+        MountOn = Shotgun;TLOG_Pumpshotgun1;TLOG_Pumpshotgun2;TLOG_Shorty;TLOG_TacticalShotgun,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGShotgunChoke,
+        WorldStaticModel = TLOG_ShotgunChoke,
+    }
+	item TLOG_PipeShotgunChoke
+	{
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Shotgun Choke (Pipe),
+        Icon = PumpShotgunMuzzle,
+        Weight = 0.15,
+        WeightModifier = 0.15,
+        DamageModifier = 0.4,
+		MaxRangeModifier = 2,
+        MountOn = Shotgun;TLOG_Pumpshotgun1;TLOG_Pumpshotgun2;TLOG_Shorty;TLOG_TacticalShotgun,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGShotgunChoke,
+        WorldStaticModel = TLOG_PipeShotgunChoke,
+    }
+	item TLOG_PipeShotgunSpreader
+	{
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Shotgun Spreader (Pipe),
+        Icon = PumpShotgunMuzzle,
+        Weight = 0.15,
+        WeightModifier = 0.15,
+        DamageModifier =  -0.5,
+		MaxRangeModifier = -1,
+        MountOn = Shotgun;TLOG_Pumpshotgun1;TLOG_Pumpshotgun2;TLOG_Shorty;TLOG_TacticalShotgun,
+        PartType = Canon,
+        Tooltip = Tooltip_TLOGShotgunSpreader,
+        WorldStaticModel = TLOG_PipeShotgunSpreader,
+		Tags= TLOGSpreader,
+    }
+	/****************************** Magazine Expansions******************************/
+	item TLOG_ExpandedMag
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Expanded Magazine (Remington 700),
+        Icon = ExpandedMagazine,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        MountOn = TLOG_HuntingRifle,
+        PartType = Stock,
+        Tooltip = Tooltip_TLOGExpandedMag,
+		WorldStaticModel = TLOG_ExpandedMag,
+    }
+	item TLOG_ElDiabloExpandedMag
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Expanded Magazine(Taurus Raging Bull),
+        Icon = ElDiabloExpandedMag,
+        Weight = 0.1,
+        WeightModifier = 0.1,
+        MountOn = TLOG_Eldiablo,
+        PartType = Stock,
+        Tooltip = Tooltip_TLOGExpandedMag,
+		WorldStaticModel = TLOG_ElDiabloExpandedMag,
+    }
+	item TLOG_Pumpshotgun1ExpandedMag
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Expanded Magazine (Shotgun),
+        Icon = ShotgunExpandedMagazine,
+        Weight = 0.2,
+        WeightModifier = 0.2,
+        MountOn = TLOG_Pumpshotgun1;TLOG_Pumpshotgun2;TLOG_TacticalShotgun,
+        PartType = Stock,
+        Tooltip = Tooltip_TLOGExpandedMag,
+		WorldStaticModel = TLOG_Pumpshotgun1ExpandedMag,
+    }
+}

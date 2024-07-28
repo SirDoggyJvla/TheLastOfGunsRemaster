@@ -1,0 +1,719 @@
+module Base
+{
+	model TLOG_RedDot2Vanila
+	{
+		mesh = weapons/firearm/TLOG_RedDot2Vanila,
+		texture = weapons/firearm/TLOG_RedDot2,
+	}
+	model TLOG_RedDotVanilaAR
+	{
+		mesh = weapons/firearm/TLOG_RedDotVanilaAR,
+		texture = weapons/firearm/TLOG_Attachments3,
+	}
+	model TLOG_RedDotVanilaAR2
+	{
+		mesh = weapons/firearm/TLOG_RedDotVanilaAR2,
+		texture = weapons/firearm/TLOG_Attachments3,
+	}
+	model TLOG_RedDot2VanilaAR
+	{
+		mesh = weapons/firearm/TLOG_RedDot2VanilaAR,
+		texture = weapons/firearm/TLOG_RedDot2,
+	}
+	model TLOG_RedDot2VanilaAR2
+	{
+		mesh = weapons/firearm/TLOG_RedDot2VanilaAR2,
+		texture = weapons/firearm/TLOG_RedDot2,
+	}
+	model TLOG_HolographicVanilaAR
+	{
+		mesh = weapons/firearm/TLOG_HolographicVanilaAR,
+		texture = weapons/firearm/TLOG_Holosight,
+	}
+	model TLOG_HolographicVanilaAR2
+	{
+		mesh = weapons/firearm/TLOG_HolographicVanilaAR2,
+		texture = weapons/firearm/TLOG_Holosight,
+	}
+	model TLOG_x2ScopeVanilaAR
+	{
+		mesh = weapons/firearm/TLOG_x2ScopeVanilaAR,
+		texture = weapons/firearm/TLOG_x2Scope,
+	}
+	model TLOG_x2ScopeVanilaAR2
+	{
+		mesh = weapons/firearm/TLOG_x2ScopeVanilaAR2,
+		texture = weapons/firearm/TLOG_x2Scope,
+	}
+	model TLOG_x4ScopeVanilaAR
+	{
+		mesh = weapons/firearm/TLOG_x4ScopeVanilaAR,
+		texture = weapons/firearm/TLOG_Scope,
+	}
+	model TLOG_x4ScopeVanilaAR2
+	{
+		mesh = weapons/firearm/TLOG_x4ScopeVanilaAR2,
+		texture = weapons/firearm/TLOG_Scope,
+	}
+	model TLOG_x8ScopeVanilaAR
+	{
+		mesh = weapons/firearm/TLOG_x8ScopeVanilaAR,
+		texture = weapons/firearm/TLOG_Scope,
+	}
+	model TLOG_x8ScopeVanilaAR2
+	{
+		mesh = weapons/firearm/TLOG_x8ScopeVanilaAR2,
+		texture = weapons/firearm/TLOG_Scope,
+	}
+	model TLOG_VariableScopeVanilaAR
+	{
+		mesh = weapons/firearm/TLOG_VariableScopeVanilaAR,
+		texture = weapons/firearm/TLOG_VariableScope,
+	}
+	model TLOG_VariableScopeVanilaAR2
+	{
+		mesh = weapons/firearm/TLOG_VariableScopeVanilaAR2,
+		texture = weapons/firearm/TLOG_VariableScope,
+	}
+	
+	
+	model TLOG_Holosight
+	{
+		mesh = weapons/firearm/TLOG_Holosight,
+		texture = weapons/firearm/TLOG_Holosight,
+		attachment world
+		{
+			offset = 0.0000 0.0580 0.0520,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+	}
+	model TLOG_BarrelUpgrade
+	{
+		mesh = weapons/firearm/TLOG_BarrelUpgrade,
+		texture = weapons/firearm/TLOG_BarrelUpgrade,
+	}
+	model TLOG_LongBarrelUpgrade
+	{
+		mesh = weapons/firearm/TLOG_LongBarrelUpgrade,
+		texture = weapons/firearm/TLOG_LongBarrelUpgrade,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+	}
+	model TLOG_SmallArmUpgrade1
+	{
+		mesh = weapons/firearm/TLOG_BarrelUpgrade,
+		texture = weapons/firearm/TLOG_BarrelUpgrade2,
+		scale = 0.9,
+	}
+	model TLOG_SmallArmUpgrade2
+	{
+		mesh = weapons/firearm/TLOG_LongBarrelUpgrade,
+		texture = weapons/firearm/TLOG_LongBarrelUpgrade,
+		scale = 0.7,
+	}
+	model TLOG_MilitarySniperMagazine
+	{
+		mesh = weapons/firearm/TLOG_MilitarySniperMagazine,
+		texture = weapons/firearm/TLOG_MilitarySniper,
+	}
+	model TLOG_SemiAutoRifleAbbyMagazine
+	{
+		mesh = weapons/firearm/TLOG_SemiAutoRifleAbbyMagazine,
+		texture = weapons/firearm/TLOG_SemiAutoRifleAbby,
+	}
+	model TLOG_MPXMagazine
+	{
+		mesh = weapons/firearm/TLOG_MPXMagazine,
+		texture = weapons/firearm/TLOG_MPX,
+	}
+	model TLOG_ShortyClip
+	{
+		mesh = weapons/firearm/TLOG_ShortyClip,
+		texture = weapons/firearm/TLOG_Shorty,
+	}
+	model TLOG_ExpandedMag
+	{
+		mesh = weapons/firearm/TLOG_ExpandedMag,
+		texture = weapons/firearm/TLOG_ExpandedMag,
+	}
+	model TLOG_ElDiabloExpandedMag
+	{
+		mesh = weapons/firearm/TLOG_ElDiabloExpandedMag,
+		texture = weapons/firearm/TLOG_ElDiabloExpandedMag,
+	}
+	model TLOG_ElDiabloBarrelUpgrade
+	{
+		mesh = weapons/firearm/TLOG_ElDiabloBarrelUpgrade,
+		texture = weapons/firearm/TLOG_ElDiabloBarrelUpgrade,
+	}
+	model TLOG_PlankGrip
+	{
+		mesh = weapons/firearm/TLOG_PlankGrip,
+		texture = weapons/firearm/TLOG_FullAutoRiflePlankStock,
+	}
+	model TLOG_Grip
+	{
+		mesh = weapons/firearm/TLOG_Grip,
+		texture = weapons/firearm/TLOG_Grip,
+	}
+	model TLOG_GripWood
+	{
+		mesh = weapons/firearm/TLOG_Grip,
+		texture = weapons/firearm/TLOG_GripWood,
+	}
+	model TLOG_ForwardGrip
+	{
+		mesh = weapons/firearm/TLOG_ForwardGrip,
+		texture = weapons/firearm/TLOG_ForwardGrip,
+	}
+	model TLOG_ForwardGripWood
+	{
+		mesh = weapons/firearm/TLOG_ForwardGrip,
+		texture = weapons/firearm/TLOG_ForwardGripWood,
+	}
+	model TLOG_Pumpshotgun1ExpandedMag
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun1ExpandedMag,
+		texture = weapons/firearm/TLOG_Attachments2,
+	}
+	model TLOG_WeaponFlashlight_ground
+	{
+		mesh = weapons/firearm/TLOG_WeaponFlashlight_ground,
+		texture = weapons/firearm/TLOG_WeaponFlashlight,
+	}
+	model TLOG_WeaponFlashlightAssaultRifle
+	{
+		mesh = weapons/firearm/TLOG_WeaponFlashlightAssaultRifle,
+		texture = weapons/firearm/TLOG_WeaponFlashlight,
+	}
+	model TLOG_WeaponFlashlightFullAutoRifle
+	{
+		mesh = weapons/firearm/TLOG_WeaponFlashlightFullAutoRifle,
+		texture = weapons/firearm/TLOG_WeaponFlashlight,
+	}
+	model TLOG_WeaponFlashlightHuntingRifle
+	{
+		mesh = weapons/firearm/TLOG_WeaponFlashlightHuntingRifle,
+		texture = weapons/firearm/TLOG_WeaponFlashlight,
+	}
+	model TLOG_WeaponFlashlightMilitarySniper
+	{
+		mesh = weapons/firearm/TLOG_WeaponFlashlightMilitarySniper,
+		texture = weapons/firearm/TLOG_WeaponFlashlight,
+	}
+	model TLOG_WeaponFlashlightPumpShotgun1
+	{
+		mesh = weapons/firearm/TLOG_WeaponFlashlightPumpShotgun1,
+		texture = weapons/firearm/TLOG_WeaponFlashlight,
+	}
+	model TLOG_WeaponFlashlightSemiAutoRifleAbby
+	{
+		mesh = weapons/firearm/TLOG_WeaponFlashlightSemiAutoRifleAbby,
+		texture = weapons/firearm/TLOG_WeaponFlashlight,
+	}
+	model TLOG_WeaponFlashlightShorty
+	{
+		mesh = weapons/firearm/TLOG_WeaponFlashlightShorty,
+		texture = weapons/firearm/TLOG_WeaponFlashlight,
+	}
+	model TLOG_WeaponFlashlightSpecter
+	{
+		mesh = weapons/firearm/TLOG_WeaponFlashlightSpecter,
+		texture = weapons/firearm/TLOG_WeaponFlashlight,
+	}
+	model TLOG_WeaponFlashlightDoubleBarrel
+	{
+		mesh = weapons/firearm/TLOG_WeaponFlashlightDoubleBarrel,
+		texture = weapons/firearm/TLOG_WeaponFlashlight,
+	}
+	model TLOG_WeaponFlashlightMPX
+	{
+		mesh = weapons/firearm/TLOG_WeaponFlashlightMPX,
+		texture = weapons/firearm/TLOG_WeaponFlashlight,
+	}
+
+	model TLOG_LaserSightVanilaPistol
+	{
+		mesh = weapons/firearm/TLOG_LaserSightVanilaPistol,
+		texture = weapons/firearm/TLOG_LaserSight,
+	}
+	model TLOG_LaserSight
+	{
+		mesh = weapons/firearm/TLOG_LaserSight,
+		texture = weapons/firearm/TLOG_LaserSight,
+	}
+	model TLOG_LaserSightVanila
+	{
+		mesh = weapons/firearm/TLOG_LaserSightVanila,
+		texture = weapons/firearm/TLOG_LaserSight,
+	}
+	model TLOG_LaserSightShotgunVanila
+	{
+		mesh = weapons/firearm/TLOG_LaserSightShotgunVanila,
+		texture = weapons/firearm/TLOG_LaserSight,
+	}
+	model TLOG_LaserSightGround
+	{
+		mesh = weapons/firearm/TLOG_LaserSightGround,
+		texture = weapons/firearm/TLOG_LaserSight,
+	}
+	model TLOG_SlingGround
+		{
+		mesh = weapons/firearm/TLOG_SlingGround,
+		texture = weapons/firearm/TLOG_Attachments,
+		}
+	model TLOG_DuctTapeSlingGround
+		{
+		mesh = weapons/firearm/TLOG_SlingGround,
+		texture = weapons/firearm/TLOG_DucttapeSling,
+		}
+	model TLOG_RopeSlingGround
+		{
+		mesh = weapons/firearm/TLOG_RopeSlingGround,
+		texture = weapons/firearm/TLOG_SlingRope,
+		}
+	model TLOG_SheetRopeSlingGround
+		{
+		mesh = weapons/firearm/TLOG_RopeSlingGround,
+		texture = weapons/firearm/TLOG_SlingSheetRope,
+		}
+	model TLOG_BeltSlingGround
+		{
+		mesh = weapons/firearm/TLOG_BeltSlingGround,
+		texture = weapons/firearm/TLOG_SlingBelt,
+		}
+	model TLOG_HuntingRifleSling
+	{
+		mesh = weapons/firearm/TLOG_HuntingRifleSling,
+		texture = weapons/firearm/TLOG_Attachments,
+	}
+	model TLOG_HuntingRifleSlingDuctTape
+	{
+		mesh = weapons/firearm/TLOG_HuntingRifleSling,
+		texture = weapons/firearm/TLOG_DucttapeSling,
+	}
+	model TLOG_HuntingRifleSlingRope
+	{
+		mesh = weapons/firearm/TLOG_HuntingRifleSlingRope,
+		texture = weapons/firearm/TLOG_SlingRope,
+	}
+	model TLOG_HuntingRifleSlingSheetRope
+	{
+		mesh = weapons/firearm/TLOG_HuntingRifleSlingRope,
+		texture = weapons/firearm/TLOG_SlingSheetRope,
+	}
+	model TLOG_HuntingRifleSlingBelt
+	{
+		mesh = weapons/firearm/TLOG_HuntingRifleSlingBelt,
+		texture = weapons/firearm/TLOG_SlingBelt,
+	}
+	model TLOG_AssaultRifleSling
+		{
+		mesh = weapons/firearm/TLOG_AssaultRifleSling,
+		texture = weapons/firearm/TLOG_Attachments,
+		}
+	model TLOG_AssaultRifleSlingDuctTape
+	{
+		mesh = weapons/firearm/TLOG_AssaultRifleSling,
+		texture = weapons/firearm/TLOG_DucttapeSling,
+	}
+	model TLOG_AssaultRifleSlingRope
+	{
+		mesh = weapons/firearm/TLOG_AssaultRifleSlingRope,
+		texture = weapons/firearm/TLOG_SlingRope,
+	}
+	model TLOG_AssaultRifleSlingSheetRope
+	{
+		mesh = weapons/firearm/TLOG_AssaultRifleSlingRope,
+		texture = weapons/firearm/TLOG_SlingSheetRope,
+	}
+	model TLOG_AssaultRifleSlingBelt
+	{
+		mesh = weapons/firearm/TLOG_AssaultRifleSlingBelt,
+		texture = weapons/firearm/TLOG_SlingBelt,
+	}
+	model TLOG_Pumpshotgun1Sling
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun1Sling,
+		texture = weapons/firearm/TLOG_Attachments,
+	}
+	model TLOG_Pumpshotgun1SlingDuctTape
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun1Sling,
+		texture = weapons/firearm/TLOG_DucttapeSling,
+	}
+	model TLOG_Pumpshotgun1SlingRope
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun1SlingRope,
+		texture = weapons/firearm/TLOG_SlingRope,
+	}
+	model TLOG_Pumpshotgun1SlingSheetRope
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun1SlingRope,
+		texture = weapons/firearm/TLOG_SlingSheetRope,
+	}
+	model TLOG_Pumpshotgun1SlingBelt
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun1SlingBelt,
+		texture = weapons/firearm/TLOG_SlingBelt,
+	}
+	model TLOG_FullAutoRifleSling
+	{
+		mesh = weapons/firearm/TLOG_FullAutoRifleSling,
+		texture = weapons/firearm/TLOG_Attachments,
+	}
+	model TLOG_FullAutoRifleSlingDuctTape
+	{
+		mesh = weapons/firearm/TLOG_FullAutoRifleSling,
+		texture = weapons/firearm/TLOG_DucttapeSling,
+	}
+	model TLOG_FullAutoRifleSlingRope
+	{
+		mesh = weapons/firearm/TLOG_FullAutoRifleSlingRope,
+		texture = weapons/firearm/TLOG_SlingRope,
+	}
+	model TLOG_FullAutoRifleSlingSheetRope
+	{
+		mesh = weapons/firearm/TLOG_FullAutoRifleSlingRope,
+		texture = weapons/firearm/TLOG_SlingSheetRope,
+	}
+	model TLOG_FullAutoRifleSlingBelt
+	{
+		mesh = weapons/firearm/TLOG_FullAutoRifleSlingBelt,
+		texture = weapons/firearm/TLOG_SlingBelt,
+	}
+	model TLOG_RecoilPad
+	{
+		mesh = weapons/firearm/TLOG_RecoilPad,
+		texture = weapons/firearm/TLOG_RecoilPad,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = -90.0000 -1.0000 90.0000,
+		}
+	}
+	model TLOG_Pumpshotgun1Recoilpad
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun1Recoilpad,
+		texture = weapons/firearm/TLOG_Attachments2,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 -90.0000,
+		}
+	}
+	model TLOG_FullAutoRifleStock
+	{
+		mesh = weapons/firearm/TLOG_FullAutoRifleStock,
+		texture = weapons/firearm/TLOG_Attachments3,
+
+		attachment world
+		{
+			offset = 0.0000 -0.0360 0.0000,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+	}
+	model TLOG_FullAutoRifleImprovisedStock
+	{
+		mesh = weapons/firearm/TLOG_FullAutoRifleImprovisedStock,
+		texture = weapons/firearm/TLOG_FullAutoRifleImprovisedStock,
+
+		attachment world
+		{
+			offset = 0.0000 -0.0360 0.0000,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+	}
+	model TLOG_FullAutoRiflePlankStock
+	{
+		mesh = weapons/firearm/TLOG_FullAutoRiflePlankStock,
+		texture = weapons/firearm/TLOG_FullAutoRiflePlankStock,
+
+		attachment world
+		{
+			offset = 0.0000 -0.0360 0.0000,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+	}
+	model TLOG_x2Scope
+	{
+		mesh = weapons/firearm/TLOG_x2Scope,
+		texture = weapons/firearm/TLOG_x2Scope,
+
+		attachment world
+		{
+			offset = 0.0000 0.0580 0.0520,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+	}
+	model TLOG_x4Scope
+	{
+		mesh = weapons/firearm/TLOG_x4Scope,
+		texture = weapons/firearm/TLOG_Scope,
+
+		attachment world
+		{
+			offset = 0.0000 0.0580 0.0520,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+	}
+	model TLOG_x8Scope
+	{
+		mesh = weapons/firearm/TLOG_x8Scope,
+		texture = weapons/firearm/TLOG_Scope,
+
+		attachment world
+		{
+			offset = 0.0000 0.0580 0.0520,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+	}
+	model TLOG_VariableScope
+	{
+		mesh = weapons/firearm/TLOG_VariableScope,
+		texture = weapons/firearm/TLOG_VariableScope,
+
+		attachment world
+		{
+			offset = 0.0000 0.0580 0.0520,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+	}
+	model TLOG_RedDot
+	{
+		mesh = weapons/firearm/TLOG_RedDot,
+		texture = weapons/firearm/TLOG_Attachments3,
+
+		attachment world
+		{
+			offset = 0.0000 0.0580 0.0520,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+	}
+	model TLOG_RedDot2
+	{
+		mesh = weapons/firearm/TLOG_RedDot2,
+		texture = weapons/firearm/TLOG_RedDot2,
+
+		attachment world
+		{
+			offset = 0.0000 0.0580 0.0520,
+			rotate = 0.0000 0.0000 90.0000,
+		}
+	}
+	model TLOG_ShotgunChoke
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun1Muzzle,
+		texture = weapons/firearm/TLOG_Pumpshotgun1Muzzle,
+	}
+	model TLOG_MuzzleBrake
+	{
+		mesh = weapons/firearm/TLOG_MuzzleBrake,
+		texture = weapons/firearm/TLOG_MuzzleBrake,
+	}
+	model TLOG_FlashHider
+	{
+		mesh = weapons/firearm/TLOG_FlashHider,
+		texture = weapons/firearm/TLOG_FlashHider,
+	}
+	model TLOG_ImprovisedSuppressorBroken
+	{
+		mesh = weapons/firearm/TLOG_ImprovisedSuppressorBroken,
+		texture = weapons/firearm/TLOG_Attachments,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_ImprovisedSuppressorVanila
+	{
+		mesh = weapons/firearm/TLOG_ImprovisedSuppressorVanila,
+		texture = weapons/firearm/TLOG_Attachments,
+	}
+	model TLOG_MilitarySuppressorVanila
+	{
+		mesh = weapons/firearm/TLOG_MilitarySuppressorVanila,
+		texture = weapons/firearm/TLOG_MilitarySuppressor,
+	}
+	model TLOG_BottleSuppressorVanila
+	{
+		mesh = weapons/firearm/TLOG_BottleSuppressorVanila,
+		texture = weapons/firearm/TLOG_BottleSuppressor,
+	}
+	model TLOG_ImprovisedSuppressor
+	{
+		mesh = weapons/firearm/TLOG_ImprovisedSuppressor,
+		texture = weapons/firearm/TLOG_Attachments,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+	}
+	model TLOG_MilitarySuppressor
+	{
+		mesh = weapons/firearm/TLOG_MilitarySuppressor,
+		texture = weapons/firearm/TLOG_MilitarySuppressor,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+	}
+	model TLOG_BottleSuppressor
+	{
+		mesh = weapons/firearm/TLOG_BottleSuppressor,
+		texture = weapons/firearm/TLOG_BottleSuppressor,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 180.0000,
+		}
+	}
+	model TLOG_BottleSuppressorBroken
+	{
+		mesh = weapons/firearm/TLOG_BottleSuppressorBroken,
+		texture = weapons/firearm/TLOG_BottleSuppressor,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_MilitarySuppressorBroken
+	{
+		mesh = weapons/firearm/TLOG_MilitarySuppressorBroken,
+		texture = weapons/firearm/TLOG_MilitarySuppressor,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 90.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_PipeDoubleBarrelChoke
+	{
+		mesh = weapons/firearm/TLOG_DoubleBarrelChoke,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_PipeDoubleBarrelSpreader
+	{
+		mesh = weapons/firearm/TLOG_DoubleBarrelSpreader,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_PipeShotgunSpreader
+	{
+		mesh = weapons/firearm/TLOG_PipeShotgunSpreader,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_PipeShotgunChoke
+	{
+		mesh = weapons/firearm/TLOG_PipeShotgunChoke,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_PipeMuzzleBrake
+	{
+		mesh = weapons/firearm/TLOG_PipeMuzzleBrake,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_PipeFlashHider
+	{
+		mesh = weapons/firearm/TLOG_PipeFlashHider,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_PipePistolMuzzleBrake
+	{
+		mesh = weapons/firearm/TLOG_PipePistolMuzzleBrake,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_LugWrenchMuzzleBrake
+	{
+		mesh = weapons/firearm/TLOG_LugWrenchMuzzleBrake,
+		texture = weapons/firearm/TLOG_LugWrenchAttachments,
+	}
+	model TLOG_LugWrenchFlashHider
+	{
+		mesh = weapons/firearm/TLOG_LugWrenchFlashHider,
+		texture = weapons/firearm/TLOG_LugWrenchAttachments,
+	}
+	model TLOG_ShellHolder
+	{
+		mesh = weapons/firearm/TLOG_ShellHolder,
+		texture = weapons/firearm/TLOG_ShellHolder,
+	}
+	model TLOG_ShellHolderVanila
+	{
+		mesh = weapons/firearm/TLOG_ShellHolderVanila,
+		texture = weapons/firearm/TLOG_ShellHolder,
+	}
+	
+	
+	
+	model TLOG_PipeShotgunSpreaderVanila
+	{
+		mesh = weapons/firearm/TLOG_PipeShotgunSpreaderVanila,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_PipeShotgunChokeVanila
+	{
+		mesh = weapons/firearm/TLOG_PipeShotgunChokeVanila,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_PipeMuzzleBrakeVanila
+	{
+		mesh = weapons/firearm/TLOG_PipeMuzzleBrakeVanila,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_PipeFlashHiderVanila
+	{
+		mesh = weapons/firearm/TLOG_PipeFlashHiderVanila,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_PipePistolMuzzleBrakeVanila
+	{
+		mesh = weapons/firearm/TLOG_PipePistolMuzzleBrakeVanila,
+		texture = weapons/firearm/TLOG_PipeAttachments,
+	}
+	model TLOG_LugWrenchMuzzleBrakeVanila
+	{
+		mesh = weapons/firearm/TLOG_LugWrenchMuzzleBrakeVanila,
+		texture = weapons/firearm/TLOG_LugWrenchAttachments,
+	}
+	model TLOG_LugWrenchFlashHiderVanila
+	{
+		mesh = weapons/firearm/TLOG_LugWrenchFlashHiderVanila,
+		texture = weapons/firearm/TLOG_LugWrenchAttachments,
+	}
+	model TLOG_ShotgunChoke
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun1Muzzle,
+		texture = weapons/firearm/TLOG_Pumpshotgun1Muzzle,
+	}
+	model TLOG_ShotgunChokeVanila
+	{
+		mesh = weapons/firearm/TLOG_Pumpshotgun1MuzzleVanila,
+		texture = weapons/firearm/TLOG_Pumpshotgun1Muzzle,
+	}
+	model TLOG_MuzzleBrakeVanila
+	{
+		mesh = weapons/firearm/TLOG_MuzzleBrakeVanila,
+		texture = weapons/firearm/TLOG_MuzzleBrake,
+	}
+	model TLOG_FlashHiderVanila
+	{
+		mesh = weapons/firearm/TLOG_FlashHiderVanila,
+		texture = weapons/firearm/TLOG_FlashHider,
+	}
+}
