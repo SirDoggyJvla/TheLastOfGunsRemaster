@@ -3,50 +3,194 @@ require "Items/ItemPicker"
 
 local TLOG_distributions = {
     PoliceStorageGuns = {
-        {"TLOG_MPXMagazine",5},
-        {"TLOG_ShortyClip",5},
-        {"TLOG_MilitarySniperMagazine",5},
-        {"TLOG_45Clip",5},
-        {"TLOG_223Clip",5},
+        {"TLOG_MPXMagazine", 5},
+        {"TLOG_ShortyClip", 5},
+        {"TLOG_MilitarySniperMagazine", 5},
+        {"TLOG_45Clip", 5},
+        {"TLOG_223Clip", 5},
     },
-
     PoliceLockers = {
-
+        {"TLOG_9mmPistol", 6},
+        {"TLOG_HuntingRifle", 3},
+        {"TLOG_DoubleBarrelShotgun", 2},
+        {"TLOG_Pumpshotgun1", 2},
+        {"TLOG_SemiAutoRifleAbby", 3},
+        {"TLOG_SmallRevolver", 3},
+        {"TLOG_Shorty", 2},
+        {"TLOG_MilitaryPistol", 4},
+        {"TLOG_AssaultRifle", 1},
     },
-
     PrisonGuardLockers = {
-
+        {"TLOG_9mmPistol", 1},
+        {"TLOG_HuntingRifle", 1},
+        {"TLOG_DoubleBarrelShotgun", 1},
+        {"TLOG_Pumpshotgun1", 1},
+        {"TLOG_SemiAutoRifleAbby", 1},
+        {"TLOG_SmallRevolver", 1},
+        {"TLOG_MilitaryPistol", 1},
+        {"TLOG_AssaultRifle", 1},
     },
-
     GunStoreDisplayCase = {
-
+        {"TLOG_MPXMagazine", 1},
+        {"TLOG_ShortyClip", 2},
+        {"TLOG_MilitarySniperMagazine", 2},
+        {"TLOG_45Clip", 2},
+        {"TLOG_223Clip", 2},
+        {"TLOG_MilitaryPistol", 4},
+        {"TLOG_9mmPistol", 4},
+        {"TLOG_HuntingRifle", 5},
+        {"TLOG_Specter", 2},
+        {"TLOG_VariableScope", 2},
     },
-
     GunStoreCounter = {
-        
+        {"TLOG_MPXMagazine", 1},
+        {"TLOG_ShortyClip", 2},
+        {"TLOG_MilitarySniperMagazine", 2},
+        {"TLOG_45Clip", 2},
+        {"TLOG_223Clip", 2},
+        {"TLOG_MilitaryPistol", 4},
+        {"TLOG_9mmPistol", 4},
+        {"TLOG_HuntingRifle", 5},
+        {"TLOG_Specter", 2},
+        {"TLOG_VariableScope", 2},
     },
-
     GunStoreShelf = {
-
+        {"TLOG_MPXMagazine", 1},
+        {"TLOG_ShortyClip", 2},
+        {"TLOG_MilitarySniperMagazine", 2},
+        {"TLOG_45Clip", 2},
+        {"TLOG_223Clip", 2},
+        {"TLOG_MilitaryPistol", 4},
+        {"TLOG_9mmPistol", 4},
+        {"TLOG_HuntingRifle", 5},
+        {"TLOG_Specter", 2},
+        {"TLOG_VariableScope", 2},
     },
-
     FirearmWeapons = {
-
+        {"TLOG_MPXMagazine", 1},
+        {"TLOG_ShortyClip", 1},
+        {"TLOG_MilitarySniperMagazine", 1},
+        {"TLOG_45Clip", 1},
+        {"TLOG_223Clip", 1},
+        {"TLOG_MilitaryPistol", 1},
+        {"TLOG_9mmPistol", 1},
+        {"TLOG_HuntingRifle", 2},
+        {"TLOG_Specter", 2},
+        {"TLOG_VariableScope", 2},
     },
-
     ArmyStorageGuns = {
-
+        {"TLOG_MPXMagazine", 2},
+        {"TLOG_ShortyClip", 2},
+        {"TLOG_MilitarySniperMagazine", 3},
+        {"TLOG_45Clip", 2},
+        {"TLOG_223Clip", 2},
+        {"TLOG_MilitaryPistol", 3},
+        {"TLOG_9mmPistol", 2},
+        {"TLOG_HuntingRifle", 4},
+        {"TLOG_Specter", 3},
+        {"TLOG_VariableScope", 5},
     },
-
     PawnShopGuns = {
-
+        {"TLOG_MPXMagazine", 2},
+        {"TLOG_ShortyClip", 2},
+        {"TLOG_MilitarySniperMagazine", 3},
+        {"TLOG_45Clip", 2},
+        {"TLOG_223Clip", 2},
+        {"TLOG_MilitaryPistol", 3},
+        {"TLOG_9mmPistol", 2},
+        {"TLOG_HuntingRifle", 4},
+        {"TLOG_Specter", 3},
+        {"TLOG_VariableScope", 5},
     },
-
     PawnShopGunsSpecial = {
-
+        {"TLOG_MPXMagazine", 2},
+        {"TLOG_ShortyClip", 2},
+        {"TLOG_MilitarySniperMagazine", 3},
+        {"TLOG_45Clip", 2},
+        {"TLOG_223Clip", 2},
+        {"TLOG_MilitaryPistol", 3},
+        {"TLOG_9mmPistol", 2},
+        {"TLOG_HuntingRifle", 4},
+        {"TLOG_Specter", 3},
+        {"TLOG_VariableScope", 5},
     },
-
-
+    LockerArmyBedroom = {
+        {"TLOG_MPXMagazine", 2},
+        {"TLOG_ShortyClip", 2},
+        {"TLOG_MilitarySniperMagazine", 5},
+        {"TLOG_45Clip", 5},
+        {"TLOG_223Clip", 3},
+        {"TLOG_MilitaryPistol", 8},
+        {"TLOG_9mmPistol", 2},
+        {"TLOG_HuntingRifle", 2},
+        {"TLOG_Specter", 3},
+        {"TLOG_VariableScope", 2},
+    },
+    SchoolLockers = {
+        {"TLOG_9mmPistol", 0.1},
+        {"TLOG_SmallRevolver", 0.1},
+        {"TLOG_HuntingRifle", 0.1},
+        {"TLOG_TacticalShotgun", 0.1},
+        {"TLOG_HuntingRifle", 0.1},
+    },
+    WardrobeMan = {
+        {"TLOG_9mmPistol", 0.1},
+        {"TLOG_HuntingRifle", 0.1},
+        {"TLOG_DoubleBarrelShotgun", 0.1},
+        {"TLOG_DoubleBarrelShotgun", 0.1},
+        {"TLOG_HuntingRifle", 0.1},
+    },
+    WardrobeManClassy = {
+        {"TLOG_9mmPistol", 0.1},
+        {"TLOG_TacticalShotgun", 0.1},
+        {"TLOG_HuntingRifle", 0.1},
+        {"TLOG_SmallRevolver", 0.1},
+        {"TLOG_SmallRevolver", 0.1},
+    },
+    ClosetShelfGeneric = {
+        {"TLOG_9mmPistol", 0.1},
+        {"TLOG_HuntingRifle", 0.1},
+        {"TLOG_DoubleBarrelShotgun", 0.1},
+        {"TLOG_DoubleBarrelShotgun", 0.1},
+        {"TLOG_HuntingRifle", 0.1},
+    },
+    DresserGeneric = {
+        {"TLOG_9mmPistol", 0.1},
+        {"TLOG_HuntingRifle", 0.1},
+        {"TLOG_DoubleBarrelShotgun", 0.1},
+        {"TLOG_DoubleBarrelShotgun", 0.1},
+        {"TLOG_HuntingRifle", 0.1},
+    },
+    GarageFirearms = {
+        {"TLOG_MPXMagazine", 1},
+        {"TLOG_ShortyClip", 2},
+        {"TLOG_MilitarySniperMagazine", 1},
+        {"TLOG_45Clip", 3},
+        {"TLOG_223Clip", 1},
+        {"TLOG_SmallRevolver", 2},
+        {"TLOG_9mmPistol", 1},
+        {"TLOG_DoubleBarrelShotgun", 2},
+        {"TLOG_Pumpshotgun1", 2},
+        {"TLOG_HuntingRifle", 2},
+    },
+    SecurityLockers = {
+        {"TLOG_SmallRevolver", 4},
+        {"TLOG_9mmPistol", 4},
+        {"TLOG_DoubleBarrelShotgun", 2},
+        {"TLOG_Pumpshotgun1", 2},
+        {"TLOG_HuntingRifle", 3},
+    },
+    DrugLabGuns = {
+        {"TLOG_9mmPistol", 6},
+        {"TLOG_HuntingRifle", 3},
+        {"TLOG_DoubleBarrelShotgun", 2},
+        {"TLOG_Pumpshotgun1", 2},
+        {"TLOG_SemiAutoRifleAbby", 3},
+        {"TLOG_SmallRevolver", 3},
+        {"TLOG_Shorty", 2},
+        {"TLOG_MilitaryPistol", 4},
+        {"TLOG_AssaultRifle", 1},
+    },
 }
 
 
