@@ -193,12 +193,11 @@ local TLOG_distributions = {
     },
 }
 
-
 local function add2Distribution(distributionTable)
-    for k,v in pairs(distributionTable) do
-        for u in pairs(v) do
-            table.insert(ProceduralDistributions.list[k].items, u[1])
-            table.insert(ProceduralDistributions.list[k].items, u[2])
+    for location,locationItems in pairs(distributionTable) do
+        for _,item in ipairs(locationItems) do
+            table.insert(ProceduralDistributions.list[location].items, item[1])
+            table.insert(ProceduralDistributions.list[location].items, item[2])
         end
     end
 end
