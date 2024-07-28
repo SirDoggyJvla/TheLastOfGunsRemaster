@@ -1,6 +1,66 @@
 require "Items/ProceduralDistributions"
 require "Items/ItemPicker"
 
+local TLOG_distributions = {
+    PoliceStorageGuns = {
+        {"TLOG_MPXMagazine",5},
+        {"TLOG_ShortyClip",5},
+        {"TLOG_MilitarySniperMagazine",5},
+        {"TLOG_45Clip",5},
+        {"TLOG_223Clip",5},
+    },
+
+    PoliceLockers = {
+
+    },
+
+    PrisonGuardLockers = {
+
+    },
+
+    GunStoreDisplayCase = {
+
+    },
+
+    GunStoreCounter = {
+        
+    },
+
+    GunStoreShelf = {
+
+    },
+
+    FirearmWeapons = {
+
+    },
+
+    ArmyStorageGuns = {
+
+    },
+
+    PawnShopGuns = {
+
+    },
+
+    PawnShopGunsSpecial = {
+
+    },
+
+
+}
+
+
+local function add2Distribution(distributionTable)
+    for k,v in pairs(distributionTable) do
+        for u in pairs(v) do
+            table.insert(ProceduralDistributions.list[k].items, u[1])
+            table.insert(ProceduralDistributions.list[k].items, u[2])
+        end
+    end
+end
+
+add2Distribution(TLOG_distributions)
+
 
 table.insert(ProceduralDistributions.list["PoliceStorageGuns"].items, "TLOG_MPXMagazine");
 table.insert(ProceduralDistributions.list["PoliceStorageGuns"].items, 5);
