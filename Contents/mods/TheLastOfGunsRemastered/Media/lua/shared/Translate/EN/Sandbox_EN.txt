@@ -1,7 +1,7 @@
 Sandbox_EN = {
 	Sandbox_TLOGRemaster = "The Last of Guns Remaster",
 	Sandbox_TLOG_BreakableSuppressor = "If selected, suppressors will lose condition",
-	Sandbox_TLOG_BreakableSuppressorChance = "Average number of shots for suppressor to lose point of condition.",
-	Sandbox_TLOG_AttachmentsToVanila = "If selected, TLOG attachments will visually appear on Vanila guns.",
+	Sandbox_TLOG_BreakableSuppressorChance = "Chance for losing condition",
+	Sandbox_TLOG_BreakableSuppressorChance_tooltip = "Average number of shots for suppressor to lose point of condition."
 	
 }

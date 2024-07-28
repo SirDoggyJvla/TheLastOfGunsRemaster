@@ -101,10 +101,9 @@ module Base
 	   Category:TLOG,
 	   AnimNode:BlowTorchFloor,
 	   Prop1:Source=3,
-	   Prop2:TLOG_SmallMetalPipeCrafting
+	   Prop2:TLOG_SmallMetalPipeCrafting,
 	   AllowDestroyedItem:true,
 	}
-	
 	recipe Craft Improvised Stock (Shovel Handle)
 	{
 	   Shovel/Shovel2,
@@ -527,7 +526,7 @@ module Base
 	{
 	   Sling,
 	   
-	   IsHidden:true,
+
 	   Result:TLOG_Sling,
 	   Time:100.0,
 	   Category:TLOG,
@@ -536,7 +535,7 @@ module Base
 	{
 	   TLOG_Sling,
 	   
-	   IsHidden:true,
+
 	   Result:Sling,
 	   Time:100.0,
 	   Category:TLOG,
@@ -545,7 +544,7 @@ module Base
 	{
 	   x2Scope,
 	   
-	   IsHidden:true,
+	   
 	   Result:TLOG_x2Scope,
 	   Time:100.0,
 	   Category:TLOG,
@@ -554,7 +553,7 @@ module Base
 	{
 	   TLOG_x2Scope,
 	   
-	   IsHidden:true,
+	   
 	   Result:x2Scope,
 	   Time:100.0,
 	   Category:TLOG,
@@ -563,7 +562,7 @@ module Base
 	{
 	   x4Scope,
 	   
-	   IsHidden:true,
+	   
 	   Result:TLOG_x4Scope,
 	   Time:100.0,
 	   Category:TLOG,
@@ -572,7 +571,7 @@ module Base
 	{
 	   TLOG_x4Scope,
 	   
-	   IsHidden:true,
+	   
 	   Result:x4Scope,
 	   Time:100.0,
 	   Category:TLOG,
@@ -581,7 +580,7 @@ module Base
 	{
 	   x8Scope,
 	   
-	   IsHidden:true,
+	  
 	   Result:TLOG_x8Scope,
 	   Time:100.0,
 	   Category:TLOG,
@@ -590,7 +589,7 @@ module Base
 	{
 	   TLOG_x8Scope,
 	   
-	   IsHidden:true,
+	   
 	   Result:x8Scope,
 	   Time:100.0,
 	   Category:TLOG,

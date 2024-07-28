@@ -188,7 +188,7 @@ module Base
         WeightModifier = 0.2,
         RecoilDelayModifier = -5.0,
 		AimingTimeModifier = 3,
-		HitChanceModifier = 4
+		HitChanceModifier = 4,
         MountOn = TLOG_FullAutoRifle,
         PartType = RecoilPad,
         Tooltip = Tooltip_FullAutoRifleStock,
@@ -205,7 +205,7 @@ module Base
         WeightModifier = 0.5,
         RecoilDelayModifier = -3.0,
 		AimingTimeModifier = 1,
-		HitChanceModifier = 3
+		HitChanceModifier = 3,
         MountOn = TLOG_FullAutoRifle,
         PartType = RecoilPad,
         Tooltip = Tooltip_FullAutoRifleImprovisedStock,
@@ -221,7 +221,7 @@ module Base
         WeightModifier = 0.6,
         RecoilDelayModifier = -1.0,
 		AimingTimeModifier = 1,
-		HitChanceModifier = 2
+		HitChanceModifier = 2,
         MountOn = TLOG_FullAutoRifle,
         PartType = RecoilPad,
         Tooltip = Tooltip_FullAutoRifleImprovisedStock,

@@ -35,12 +35,12 @@ local SuppressorBreak = function(character, inventoryItem)
 			local canon = inventoryItem:getCanon()
 			local Cannonslot = inventoryItem:getCanon():getFullType()
 			if (canon:hasTag("Suppressor")) then
-				print(BreakChance)
-				print("It has Suppressor")
+			--	print(BreakChance)
+			--	print("It has Suppressor")
 				if inventoryItem:isRoundChambered() or inventoryItem:getCurrentAmmoCount() >0 then
 					if BreakChance == 0 and not inventoryItem:isJammed() then
 						canon:setCondition(canon:getCondition()-1)
-						print("Actuall Condition after RNG:" .. canon:getCondition())
+			--			print("Actuall Condition after RNG:" .. canon:getCondition())
 					if canon:getCondition() == 3 then
 						character:Say("Suppressor is getting weaker!")
 						end
@@ -48,7 +48,7 @@ local SuppressorBreak = function(character, inventoryItem)
 						character:Say("Suppressor might break any moment now!")
 						end
 						else
-						print("You live to suppress another shot")
+			--			print("You live to suppress another shot")
 						end
 				end
 					--Destroys attachment on gun and places broken item on ground
@@ -89,17 +89,19 @@ end
 				if stock then
 					if (stock:hasTag("CarbonFiberBarrelTLOG")) then
 						inventoryItem:setConditionLowerChance(inventoryItem:getScriptItem():getConditionLowerChance()* 1.5)
-						print("Decreased chance of losing Durability")
-						print(inventoryItem:getConditionLowerChance()) end
+				--		print("Decreased chance of losing Durability")
+				--		print(inventoryItem:getConditionLowerChance()) 
+					end
 						else --if not (stock:hasTag("CarbonFiberBarrelTLOG")) then
 						inventoryItem:setConditionLowerChance(inventoryItem:getScriptItem():getConditionLowerChance())
-						print("Original Durability loss")
-						print(inventoryItem:getConditionLowerChance())
+				--		print("Original Durability loss")
+				--		print(inventoryItem:getConditionLowerChance())
 					end
 				if canon then
 					if (canon:hasTag("TLOGSpreader")) then
 						inventoryItem:setMaxHitCount((inventoryItem:getScriptItem():getMaxHitCount() + 1))
-						print("Spread the democracy")end
+				--		print("Spread the democracy")
+					end
 					else
 						inventoryItem:setMaxHitCount(inventoryItem:getScriptItem():getMaxHitCount())
 						print("Return to normal amount of democracy")
@@ -108,14 +110,14 @@ end
 					if inventoryItem:getStock() then
 						local StockSlot = inventoryItem:getStock():getFullType()
 						if StockSlot =="Base.TLOG_ExpandedMag" then
-						print("UpgradeTime ")
+				--		print("UpgradeTime ")
 						inventoryItem:setMaxAmmo(6)
 						end
 						else
-						print("DowngradeTime ")
+				--		print("DowngradeTime ")
 						inventoryItem:setMaxAmmo(3)
 						if inventoryItem:getCurrentAmmoCount() > inventoryItem:getMaxAmmo() then
-								print("ClearlyTooMuchAmmoInHere")
+				--				print("ClearlyTooMuchAmmoInHere")
 								local RemainingBullets = inventoryItem:getCurrentAmmoCount() - 3
 								inventoryItem:setCurrentAmmoCount(3)
 								local inventory = getPlayer():getInventory()
@@ -130,14 +132,14 @@ end
 				if inventoryItem:getStock() then
 					local StockSlot = inventoryItem:getStock():getFullType()
 					if StockSlot =="Base.TLOG_Pumpshotgun1ExpandedMag" then
-					print("UpgradeTimeShotgun ")
+			--		print("UpgradeTimeShotgun ")
 					inventoryItem:setMaxAmmo(8)
 					end
 					else
-					print("DowngradeTimeShotgun ")
+			--		print("DowngradeTimeShotgun ")
 					inventoryItem:setMaxAmmo(5)
 					if inventoryItem:getCurrentAmmoCount() > inventoryItem:getMaxAmmo() then
-						print("ClearlyTooMuchAmmoInHere")
+			--			print("ClearlyTooMuchAmmoInHere")
 						local RemainingBullets = inventoryItem:getCurrentAmmoCount() - 5
 						inventoryItem:setCurrentAmmoCount(5)
 						local inventory = getPlayer():getInventory()
@@ -152,14 +154,14 @@ end
 				if inventoryItem:getStock() then
 					local StockSlot = inventoryItem:getStock():getFullType()
 					if StockSlot =="Base.TLOG_Pumpshotgun1ExpandedMag" then
-					print("UpgradeTimeShotgun ")
+			--		print("UpgradeTimeShotgun ")
 					inventoryItem:setMaxAmmo(8)
 					end
 					else
-					print("DowngradeTimeShotgun ")
+			--		print("DowngradeTimeShotgun ")
 					inventoryItem:setMaxAmmo(5)
 					if inventoryItem:getCurrentAmmoCount() > inventoryItem:getMaxAmmo() then
-						print("ClearlyTooMuchAmmoInHere")
+			--			print("ClearlyTooMuchAmmoInHere")
 						local RemainingBullets = inventoryItem:getCurrentAmmoCount() - 5
 						inventoryItem:setCurrentAmmoCount(5)
 						local inventory = getPlayer():getInventory()
@@ -174,14 +176,14 @@ end
 				if inventoryItem:getStock() then
 					local StockSlot = inventoryItem:getStock():getFullType()
 					if StockSlot =="Base.TLOG_Pumpshotgun1ExpandedMag" then
-					print("UpgradeTimeTacticalShotgun ")
+			--		print("UpgradeTimeTacticalShotgun ")
 					inventoryItem:setMaxAmmo(8)
 					end
 					else
-					print("DowngradeTimeShotgun ")
+			--		print("DowngradeTimeShotgun ")
 					inventoryItem:setMaxAmmo(5)
 					if inventoryItem:getCurrentAmmoCount() > inventoryItem:getMaxAmmo() then
-						print("ClearlyTooMuchAmmoInHere")
+			--			print("ClearlyTooMuchAmmoInHere")
 						local RemainingBullets = inventoryItem:getCurrentAmmoCount() - 5
 						inventoryItem:setCurrentAmmoCount(5)
 						local inventory = getPlayer():getInventory()
@@ -197,23 +199,23 @@ end
 					local Cannonslot = inventoryItem:getCanon():getFullType()
 					if Cannonslot  == "Base.TLOG_ElDiabloBarrelUpgrade" then
 						inventoryItem:setPiercingBullets(true)
-						print("AP AMMO LOADED")
+			--			print("AP AMMO LOADED")
 					end
 					else
 					inventoryItem:setPiercingBullets(false)
-					print("We got defunded")
+			--		print("We got defunded")
 					end
 				if inventoryItem:getStock() then
 					local StockSlot = inventoryItem:getStock():getFullType()
 					if StockSlot =="Base.TLOG_ElDiabloExpandedMag" then
-					print("UpgradeTimeElDiablo ")
+			--		print("UpgradeTimeElDiablo ")
 					inventoryItem:setMaxAmmo(3)
 					end
 					else
-					print("DowngradeTimeElDiablo ")
+			--		print("DowngradeTimeElDiablo ")
 					inventoryItem:setMaxAmmo(1)
 					if inventoryItem:getCurrentAmmoCount() > inventoryItem:getMaxAmmo() then
-						print("ClearlyTooMuchAmmoInHere")
+			--			print("ClearlyTooMuchAmmoInHere")
 						local RemainingBullets = inventoryItem:getCurrentAmmoCount() - 1
 						inventoryItem:setCurrentAmmoCount(1)
 						local inventory = getPlayer():getInventory()
