@@ -1,6 +1,5 @@
 module Base
 {
-	
 	model TLOG_Flamethrower
 	{
 		mesh = weapons/firearm/TLOG_Flamethrower,
@@ -418,6 +417,12 @@ module Base
 		attachment acog
 		{
 			offset = 0.0000 0.0630 0.0580,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0030 0.3180 0.0260,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}

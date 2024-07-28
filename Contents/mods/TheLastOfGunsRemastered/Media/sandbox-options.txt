@@ -13,12 +13,6 @@ option TLOG_BreakableSuppressorChance
 	page = TLOGRemaster, 
 	translation = TLOG_BreakableSuppressorChance,
 }
-option TLOG_AttachmentsToVanila
-{
-    type = boolean,
-    default = true,
-    page = TLOGRemaster,
-	translation = TLOG_AttachmentsToVanila,
-}
+
 
 

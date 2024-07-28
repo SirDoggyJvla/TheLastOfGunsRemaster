@@ -105,19 +105,6 @@ module Base
 	   AllowDestroyedItem:true,
 	}
 	
-	recipe Craft Improvised Weapon Flashlight
-	{
-	   DuctTape=2,
-	   HandTorch,
-	   
-	   CanBeDoneFromFloor:true,
-	   Result:TLOG_WeaponFlashlight,
-	   Sound:FixWithTape,
-	   Time:250.0,
-	   Category:TLOG,
-	   Prop1:TLOG_CraftingDuctTape,
-	   Prop2:HandTorch,
-	}
 	recipe Craft Improvised Stock (Shovel Handle)
 	{
 	   Shovel/Shovel2,
@@ -536,6 +523,79 @@ module Base
 	   Time:700.0,
 	   Category:TLOG,
 	}
+	recipe Adjust Sling
+	{
+	   Sling,
+	   
+	   IsHidden:true,
+	   Result:TLOG_Sling,
+	   Time:100.0,
+	   Category:TLOG,
+	}
+	recipe Revert Adjusting Sling
+	{
+	   TLOG_Sling,
+	   
+	   IsHidden:true,
+	   Result:Sling,
+	   Time:100.0,
+	   Category:TLOG,
+	}
+	recipe Modify Scope
+	{
+	   x2Scope,
+	   
+	   IsHidden:true,
+	   Result:TLOG_x2Scope,
+	   Time:100.0,
+	   Category:TLOG,
+	}
+	recipe Revert Modify Scope
+	{
+	   TLOG_x2Scope,
+	   
+	   IsHidden:true,
+	   Result:x2Scope,
+	   Time:100.0,
+	   Category:TLOG,
+	}
+	recipe Modify Scope
+	{
+	   x4Scope,
+	   
+	   IsHidden:true,
+	   Result:TLOG_x4Scope,
+	   Time:100.0,
+	   Category:TLOG,
+	}
+	recipe Revert Modify Scope
+	{
+	   TLOG_x4Scope,
+	   
+	   IsHidden:true,
+	   Result:x4Scope,
+	   Time:100.0,
+	   Category:TLOG,
+	}
+	recipe Modify Scope
+	{
+	   x8Scope,
+	   
+	   IsHidden:true,
+	   Result:TLOG_x8Scope,
+	   Time:100.0,
+	   Category:TLOG,
+	}
+	recipe Revert Modify Scope
+	{
+	   TLOG_x8Scope,
+	   
+	   IsHidden:true,
+	   Result:x8Scope,
+	   Time:100.0,
+	   Category:TLOG,
+	}
+	
 
 
 }
