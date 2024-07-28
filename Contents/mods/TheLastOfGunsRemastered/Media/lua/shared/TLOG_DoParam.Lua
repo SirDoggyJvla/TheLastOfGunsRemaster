@@ -8,11 +8,9 @@ local function checkMod(string)
     return getActivatedMods():contains(string)
 end
 
-for v in ipairs(table) do
+for _,v in ipairs(table) do
     if checkMod(v) then return end
 end
-
-if getActivatedMods():contains("firearmmod") then return end
 
 local item = ScriptManager.instance:getItem("AssaultRifle")
     if item then
