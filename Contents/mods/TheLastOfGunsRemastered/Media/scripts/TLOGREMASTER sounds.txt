@@ -1,12 +1,12 @@
 module Base
 {
-	sound TLOGSilencedSound
+	sound TLOGSilencedBottleSound
 	{
         category = Weapon, loop = false, is3D = true,
         clip { file = Media/sound/TLOGSilencedBottle.ogg, distanceMax = 25, volume = 1f, }
 		maxInstancesPerEmitter = 3,
 	}
-	sound TLOGSiliencedSupp
+	sound TLOGSiliencedSound
 	{
         category = Weapon, loop = false, is3D = true,
         clip { file = Media/sound/TLOGSiliencedSupp.ogg, distanceMax = 21, volume = 0.6f, }
