@@ -75,8 +75,6 @@ module Base
 		mesh = weapons/firearm/TLOG_VariableScopeVanilaAR2,
 		texture = weapons/firearm/TLOG_VariableScope,
 	}
-	
-	
 	model TLOG_Holosight
 	{
 		mesh = weapons/firearm/TLOG_Holosight,
@@ -235,7 +233,6 @@ module Base
 		mesh = weapons/firearm/TLOG_WeaponFlashlightMPX,
 		texture = weapons/firearm/TLOG_WeaponFlashlight,
 	}
-
 	model TLOG_LaserSightVanilaPistol
 	{
 		mesh = weapons/firearm/TLOG_LaserSightVanilaPistol,
@@ -652,15 +649,18 @@ module Base
 	{
 		mesh = weapons/firearm/TLOG_ShellHolder,
 		texture = weapons/firearm/TLOG_ShellHolder,
+
+		attachment world
+		{
+			offset = 0.0000 0.0070 0.0000,
+			rotate = 0.0000 0.0000 90.0000,
+		}
 	}
 	model TLOG_ShellHolderVanila
 	{
 		mesh = weapons/firearm/TLOG_ShellHolderVanila,
 		texture = weapons/firearm/TLOG_ShellHolder,
 	}
-	
-	
-	
 	model TLOG_PipeShotgunSpreaderVanila
 	{
 		mesh = weapons/firearm/TLOG_PipeShotgunSpreaderVanila,

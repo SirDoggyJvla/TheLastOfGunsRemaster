@@ -93,6 +93,12 @@ module Base
 			offset = 0.0000 0.5200 0.0250,
 			rotate = 0.0000 0.0000 0.0000,
 		}
+
+		attachment mag
+		{
+			offset = 0.0000 0.1010 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
 	model TLOG_MilitarySniper
 	{
@@ -107,7 +113,7 @@ module Base
 
 		attachment muzzle
 		{
-			offset = 0.0000 0.5090 0.0360,
+			offset = 0.0000 0.5090 0.0340,
 			rotate = -90.0000 0.0000 0.0000,
 		}
 
@@ -168,6 +174,12 @@ module Base
 		attachment lasersight
 		{
 			offset = -0.0030 0.3470 0.0110,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment grip
+		{
+			offset = 0.0000 0.2110 0.0110,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
@@ -425,6 +437,18 @@ module Base
 			offset = 0.0030 0.3180 0.0260,
 			rotate = 0.0000 0.0000 0.0000,
 		}
+
+		attachment grip
+		{
+			offset = 0.0030 0.2160 0.0090,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = 0.0000 0.2470 0.0070,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
 	model TLOG_FullAutoRifle
 	{
@@ -500,6 +524,18 @@ module Base
 		attachment acog
 		{
 			offset = 0.0020 0.0370 0.0790,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment grip
+		{
+			offset = 0.0000 0.2040 0.0030,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = -0.0020 0.2480 0.0020,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
@@ -687,7 +723,7 @@ module Base
 
 		attachment reddot
 		{
-			offset = 0.0000 0.1090 0.0340,
+			offset = 0.0000 0.1040 0.0340,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 
@@ -752,7 +788,7 @@ module Base
 
 		attachment reddot
 		{
-			offset = 0.0000 0.1090 0.0340,
+			offset = 0.0000 0.1020 0.0340,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 
@@ -773,6 +809,7 @@ module Base
 			offset = 0.0000 0.1270 0.0390,
 			rotate = 180.0000 0.0000 180.0000,
 		}
+
 		attachment shellholder
 		{
 			offset = 0.0060 0.0790 0.0190,

@@ -95,7 +95,7 @@ module Base
 		ModelWeaponPart = TLOG_ImprovisedSuppressor TLOG_ImprovisedSuppressor suppressor suppressor,
 		ModelWeaponPart = TLOG_MilitarySuppressor TLOG_MilitarySuppressor suppressor suppressor,
 		ModelWeaponPart = TLOG_BottleSuppressor TLOG_BottleSuppressor suppressor suppressor,
-		ModelWeaponPart = TLOG_ExpandedMag TLOG_ExpandedMag stock stock,
+		ModelWeaponPart = TLOG_ExpandedMag TLOG_ExpandedMag mag mag,
 		ModelWeaponPart = TLOG_LaserSight TLOG_LaserSight lasersight lasersight,
 		ModelWeaponPart = TLOG_Sling TLOG_HuntingRifleSling sling sling,
 		ModelWeaponPart = TLOG_SlingDuctTape TLOG_HuntingRifleSlingDuctTape sling sling,

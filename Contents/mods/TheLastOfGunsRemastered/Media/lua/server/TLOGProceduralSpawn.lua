@@ -128,7 +128,7 @@ local TLOG_distributions = {
         {"TLOG_Pumpshotgun1ExpandedMag", 2},--Attachment
         {"TLOG_MilitarySuppressor", 2},--Attachment
         {"TLOG_ElDiabloBarrelUpgrade", 2},--Attachment
-        {"TLOG_LaserSight", 8}, --Attachment
+        {"TLOG_LaserSight", 5}, --Attachment
         {"TLOG_SpareParts", 8}, --Attachment
         {"TLOG_SpareParts2", 8}, --Attachment
         {"TLOG_CFBarrelUpgrade", 8}, --Attachment
@@ -136,8 +136,7 @@ local TLOG_distributions = {
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 8}, --Attachment
+ 
     },
     GunStoreCounter = {
         {"TLOG_MPXMagazine", 5},--mag
@@ -171,7 +170,7 @@ local TLOG_distributions = {
         {"TLOG_Pumpshotgun1ExpandedMag", 2},--Attachment
         {"TLOG_MilitarySuppressor", 2},--Attachment
         {"TLOG_ElDiabloBarrelUpgrade", 2},--Attachment
-        {"TLOG_LaserSight", 8}, --Attachment
+        {"TLOG_LaserSight", 5}, --Attachment
         {"TLOG_SpareParts", 8}, --Attachment
         {"TLOG_SpareParts2", 8}, --Attachment
         {"TLOG_CFBarrelUpgrade", 8}, --Attachment
@@ -179,8 +178,7 @@ local TLOG_distributions = {
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 8}, --Attachment
+
     },
     GunStoreShelf = {
         {"TLOG_MPXMagazine", 5},--mag
@@ -214,7 +212,7 @@ local TLOG_distributions = {
         {"TLOG_Pumpshotgun1ExpandedMag", 2},--Attachment
         {"TLOG_MilitarySuppressor", 2},--Attachment
         {"TLOG_ElDiabloBarrelUpgrade", 2},--Attachment
-        {"TLOG_LaserSight", 8}, --Attachment
+        {"TLOG_LaserSight", 4}, --Attachment
         {"TLOG_SpareParts", 8}, --Attachment
         {"TLOG_SpareParts2", 8}, --Attachment
         {"TLOG_CFBarrelUpgrade", 8}, --Attachment
@@ -222,8 +220,7 @@ local TLOG_distributions = {
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 8}, --Attachment
+
     },
     FirearmWeapons = {
         {"TLOG_Pumpshotgun1", 8}, --Shotgun
@@ -259,8 +256,7 @@ local TLOG_distributions = {
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 8}, --Attachment
+
     },
     ArmyStorageGuns = {
         {"TLOG_Pumpshotgun1", 8}, --Shotgun
@@ -291,8 +287,7 @@ local TLOG_distributions = {
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 4}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 3}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 3}, --Attachment
+
     },
     PawnShopGuns = {
         {"TLOG_Pumpshotgun1", 83}, --Shotgun
@@ -409,16 +404,14 @@ local TLOG_distributions = {
         {"TLOG_Pumpshotgun1ExpandedMag", 2},--Attachment
         {"TLOG_MilitarySuppressor", 2},--Attachment
         {"TLOG_ElDiabloBarrelUpgrade", 2},--Attachment
-        {"TLOG_LaserSight", 8}, --Attachment
-        {"TLOG_SpareParts", 8}, --Attachment
-        {"TLOG_SpareParts2", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 8}, --Attachment
+        {"TLOG_LaserSight", 4}, --Attachment
+        {"TLOG_SpareParts", 5}, --Attachment
+        {"TLOG_SpareParts2", 5}, --Attachment
+        {"TLOG_CFBarrelUpgrade", 5}, --Attachment
+        {"TLOG_CFBarrelUpgrade2", 5}, --Attachment
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 8}, --Attachment
-        {"TLOG_CFBarrelUpgrade2", 8}, --Attachment
     },
     SecurityLockers = {
         {"TLOG_SmallRevolver", 4},

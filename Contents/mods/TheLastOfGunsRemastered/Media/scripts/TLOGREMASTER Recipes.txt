@@ -271,7 +271,7 @@ module Base
        SkillRequired:Woodwork=4,
 	   CanBeDoneFromFloor:true,
 	   Result:TLOG_GripWood,
-	   Time:250.0,
+	   Time:700.0,
 	   Category:TLOG,
 	   Prop1:Source=2,
 	}
@@ -284,7 +284,7 @@ module Base
 		SkillRequired:Woodwork=4,
 	   CanBeDoneFromFloor:true,
 	   Result:TLOG_ForwardGripWood,
-	   Time:250.0,
+	   Time:700.0,
 	   Category:TLOG,
 	   Prop1:Source=2,
 	}

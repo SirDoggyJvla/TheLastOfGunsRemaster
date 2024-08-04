@@ -53,7 +53,7 @@ module Base
         AimingPerkHitChanceModifier = 10,
         AimingPerkMinAngleModifier = 0,
         AimingPerkRangeModifier = 3,
-        RecoilDelay = 2,
+        RecoilDelay = 3,
         SoundGain = 2,
         ReloadTime = 25,
         AimingTime = 25,

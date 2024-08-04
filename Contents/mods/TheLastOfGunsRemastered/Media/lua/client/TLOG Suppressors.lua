@@ -74,8 +74,8 @@ if SandboxVars.TLOG_BreakableSuppressor == true then
 end
 end
 
-	local TLOGUPGRADES = function(character, inventoryItem, player)
-		if inventoryItem ~= nil then
+local TLOGUPGRADES = function(character, inventoryItem, player)
+	if inventoryItem ~= nil then
 			if inventoryItem:getStringItemType() == "RangedWeapon" then
 				local stock = inventoryItem:getStock()
 				local canon = inventoryItem:getCanon()
@@ -88,7 +88,7 @@ end
 					end
 				if canon then
 					if (canon:hasTag("TLOGSpreader")) then
-						inventoryItem:setMaxHitCount((inventoryItem:getScriptItem():getMaxHitCount() + 1))
+						inventoryItem:setMaxHitCount(inventoryItem:getScriptItem():getMaxHitCount() + 1)
 					end
 					else
 						inventoryItem:setMaxHitCount(inventoryItem:getScriptItem():getMaxHitCount())
@@ -102,28 +102,64 @@ end
 						else
 						inventoryItem:setMaxAmmo(3)
 						if inventoryItem:getCurrentAmmoCount() > inventoryItem:getMaxAmmo() then
-							local RemainingBullets = inventoryItem:getCurrentAmmoCount() - 3
-							inventoryItem:setCurrentAmmoCount(3)
-							local inventory = getPlayer():getInventory()
-							for i = 1, RemainingBullets do
-								 local bullet = InventoryItemFactory.CreateItem("Base.308Bullets")
-								 inventory:addItem(bullet)
-							end
+								local RemainingBullets = inventoryItem:getCurrentAmmoCount() - 3
+								inventoryItem:setCurrentAmmoCount(3)
+								local inventory = getPlayer():getInventory()
+								for i = 1, RemainingBullets do
+									 local bullet = InventoryItemFactory.CreateItem("Base.308Bullets")
+									 inventory:addItem(bullet)
+								end
 						end
 					end
 				end
-			if inventoryItem:getFullType() == "Base.TLOG_Pumpshotgun1" or "Base.TLOG_Pumpshotgun2" or "Base.TLOG_TacticalShotgun" then
+			if inventoryItem:getFullType() == "Base.TLOG_Pumpshotgun1" then
 				if inventoryItem:getStock() then
 					local StockSlot = inventoryItem:getStock():getFullType()
 					if StockSlot =="Base.TLOG_Pumpshotgun1ExpandedMag" then
-			--		print("UpgradeTimeShotgun ")
 					inventoryItem:setMaxAmmo(8)
 					end
 					else
-			--		print("DowngradeTimeShotgun ")
 					inventoryItem:setMaxAmmo(5)
 					if inventoryItem:getCurrentAmmoCount() > inventoryItem:getMaxAmmo() then
-			--			print("ClearlyTooMuchAmmoInHere")
+						local RemainingBullets = inventoryItem:getCurrentAmmoCount() - 5
+						inventoryItem:setCurrentAmmoCount(5)
+						local inventory = getPlayer():getInventory()
+						for i = 1, RemainingBullets do
+							local bullet = InventoryItemFactory.CreateItem("Base.ShotgunShells")
+							inventory:addItem(bullet)
+						end
+					end
+				end
+			end
+			if inventoryItem:getFullType() == "Base.TLOG_Pumpshotgun2" then
+				if inventoryItem:getStock() then
+					local StockSlot = inventoryItem:getStock():getFullType()
+					if StockSlot =="Base.TLOG_Pumpshotgun1ExpandedMag" then
+					inventoryItem:setMaxAmmo(8)
+					end
+					else
+					inventoryItem:setMaxAmmo(5)
+					if inventoryItem:getCurrentAmmoCount() > inventoryItem:getMaxAmmo() then
+						local RemainingBullets = inventoryItem:getCurrentAmmoCount() - 5
+						inventoryItem:setCurrentAmmoCount(5)
+						local inventory = getPlayer():getInventory()
+						for i = 1, RemainingBullets do
+							local bullet = InventoryItemFactory.CreateItem("Base.ShotgunShells")
+							inventory:addItem(bullet)
+						end
+					end
+				end
+			end
+			if inventoryItem:getFullType() == "Base.TLOG_TacticalShotgun" then
+				if inventoryItem:getStock() then
+					local StockSlot = inventoryItem:getStock():getFullType()
+					if StockSlot =="Base.TLOG_Pumpshotgun1ExpandedMag" then
+			--		print("UpgradeTimeTacticalShotgun ")
+					inventoryItem:setMaxAmmo(8)
+					end
+					else
+					inventoryItem:setMaxAmmo(5)
+					if inventoryItem:getCurrentAmmoCount() > inventoryItem:getMaxAmmo() then
 						local RemainingBullets = inventoryItem:getCurrentAmmoCount() - 5
 						inventoryItem:setCurrentAmmoCount(5)
 						local inventory = getPlayer():getInventory()
@@ -146,6 +182,7 @@ end
 				if inventoryItem:getStock() then
 					local StockSlot = inventoryItem:getStock():getFullType()
 					if StockSlot =="Base.TLOG_ElDiabloExpandedMag" then
+
 					inventoryItem:setMaxAmmo(3)
 					end
 					else
@@ -164,6 +201,8 @@ end
 		end
 	end
 end
+
+
 Events.OnWeaponSwing.Add(SuppressorBreak)
 Events.OnWeaponSwing.Add(SuppressorTLOG)
 Events.OnEquipPrimary.Add(SuppressorTLOG)
