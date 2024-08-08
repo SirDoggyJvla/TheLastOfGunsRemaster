@@ -17,7 +17,7 @@ module Base
         SwingAmountBeforeImpact	=	0,
         ProjectileCount	=	1,
         ConditionLowerChanceOneIn	=	80,
-        Weight	=	4,
+        Weight	=	2.6,
         SplatNumber	=	3,
         PushBackMod	=	0.3,
         SubCategory	=	Firearm,
@@ -111,6 +111,9 @@ module Base
 		ModelWeaponPart = TLOG_FullAutoRifleImprovisedStock TLOG_FullAutoRifleImprovisedStock recoilpad recoilpad,
 		ModelWeaponPart = TLOG_FullAutoRiflePlankStock TLOG_FullAutoRiflePlankStock recoilpad recoilpad,
         StopPower = 2,
+		TorchCone	=	TRUE,
+		LightStrength	=	0,
+		LightDistance	=	13,
 	}
 	 item TLOG_223Clip
     {

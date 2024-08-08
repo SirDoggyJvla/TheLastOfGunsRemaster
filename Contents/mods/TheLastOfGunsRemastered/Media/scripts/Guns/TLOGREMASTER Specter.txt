@@ -108,6 +108,9 @@ module Base
 		ModelWeaponPart = TLOG_SlingSheetRope TLOG_AssaultRifleSlingSheetRope sling sling,
 		ModelWeaponPart = TLOG_SlingBelt TLOG_AssaultRifleSlingBelt sling sling,
         StopPower = 2,
+		TorchCone	=	TRUE,
+		LightStrength	=	0,
+		LightDistance	=	13,
 	}
 	fixing Fix Galil
 	{

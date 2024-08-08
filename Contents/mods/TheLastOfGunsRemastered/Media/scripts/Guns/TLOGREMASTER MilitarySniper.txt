@@ -104,6 +104,9 @@ module Base
         JamGunChance = 5,
         AttachmentType = Rifle,
         StopPower = 20,
+		TorchCone	=	TRUE,
+		LightStrength	=	0,
+		LightDistance	=	13,
     }
 	recipe Make .308 10 Round Magazine,
 	{

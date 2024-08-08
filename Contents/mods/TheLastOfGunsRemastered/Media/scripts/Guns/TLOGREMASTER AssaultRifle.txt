@@ -108,6 +108,9 @@ module Base
 		ModelWeaponPart = TLOG_GripWood TLOG_GripWood grip grip,
 		ModelWeaponPart = TLOG_ForwardGripWood TLOG_ForwardGripWood grip grip,
         StopPower = 2,
+		TorchCone	=	TRUE,
+		LightStrength	=	0,
+		LightDistance	=	13,
 	}
 	fixing Fix Colt M16A4
 	{

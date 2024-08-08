@@ -8,7 +8,7 @@ local TLOG_distributions = {
         {"TLOG_DoubleBarrelShotgun", 1}, --Shotgun
         {"TLOG_Shorty", 2},--Shotgun
       --  {"TLOG_HuntingPistol", 4}, --Pistol
-      --  {"TLOG_ElDiablo", 4}, --Pistol
+      --  {"TLOG_Eldiablo", 4}, --Pistol
         {"TLOG_9mmPistol", 7},--Pistol
         {"TLOG_SmallRevolver", 10},--Pistol
         {"TLOG_MilitaryPistol", 9},--Pistol
@@ -86,7 +86,7 @@ local TLOG_distributions = {
         {"TLOG_DoubleBarrelShotgun", 8}, --Shotgun
         {"TLOG_Shorty", 4},--Shotgun
         {"TLOG_HuntingPistol", 4}, --Pistol
-        {"TLOG_ElDiablo", 4}, --Pistol
+        {"TLOG_Eldiablo", 4}, --Pistol
         {"TLOG_9mmPistol", 7},--Pistol
         {"TLOG_SmallRevolver", 10},--Pistol
         {"TLOG_MilitaryPistol", 9},--Pistol
@@ -228,7 +228,7 @@ local TLOG_distributions = {
         {"TLOG_DoubleBarrelShotgun", 8}, --Shotgun
         {"TLOG_Shorty", 4},--Shotgun
         {"TLOG_HuntingPistol", 4}, --Pistol
-        {"TLOG_ElDiablo", 4}, --Pistol
+        {"TLOG_Eldiablo", 4}, --Pistol
         {"TLOG_9mmPistol", 7},--Pistol
         {"TLOG_SmallRevolver", 10},--Pistol
         {"TLOG_MilitaryPistol", 9},--Pistol
@@ -324,7 +324,7 @@ local TLOG_distributions = {
         {"TLOG_HuntingRifle", 0.1},--Rifle
         {"TLOG_Shorty", 0.01},--Shotgun
         {"TLOG_HuntingPistol", 0.01}, --Pistol
-        {"TLOG_ElDiablo", 0.01}, --Pistol
+        {"TLOG_Eldiablo", 0.01}, --Pistol
         {"TLOG_9mmPistol", 0.01},--Pistol
         {"TLOG_SmallRevolver", 0.010},--Pistol
         {"TLOG_MilitaryPistol", 0.01},--Pistol
@@ -362,7 +362,7 @@ local TLOG_distributions = {
         {"TLOG_DoubleBarrelShotgun", 6}, --Shotgun
         {"TLOG_Shorty", 4},--Shotgun
         {"TLOG_HuntingPistol", 4}, --Pistol
-        {"TLOG_ElDiablo", 4}, --Pistol
+        {"TLOG_Eldiablo", 4}, --Pistol
         {"TLOG_9mmPistol", 7},--Pistol
         {"TLOG_SmallRevolver", 10},--Pistol
         {"TLOG_MilitaryPistol", 9},--Pistol
@@ -427,7 +427,7 @@ local TLOG_distributions = {
         {"TLOG_DoubleBarrelShotgun", 4}, --Shotgun
         {"TLOG_Shorty", 3},--Shotgun
         {"TLOG_HuntingPistol", 2}, --Pistol
-        {"TLOG_ElDiablo", 2}, --Pistol
+        {"TLOG_Eldiablo", 2}, --Pistol
         {"TLOG_9mmPistol", 4},--Pistol
         {"TLOG_SmallRevolver", 6},--Pistol
         {"TLOG_MilitaryPistol", 9},--Pistol
@@ -441,35 +441,35 @@ local TLOG_distributions = {
     },
     BedroomDresser = {
         {"TLOG_HuntingPistol", 0.2}, --Pistol
-        {"TLOG_ElDiablo", 0.02}, --Pistol
+        {"TLOG_Eldiablo", 0.02}, --Pistol
         {"TLOG_9mmPistol", 0.1},--Pistol
         {"TLOG_SmallRevolver", 0.4},--Pistol
         {"TLOG_MilitaryPistol", 0.4},--Pistol
     },
     DrugShackWeapons = {
         {"TLOG_HuntingPistol", 2}, --Pistol
-        {"TLOG_ElDiablo", 2}, --Pistol
+        {"TLOG_Eldiablo", 2}, --Pistol
         {"TLOG_9mmPistol", 1},--Pistol
         {"TLOG_SmallRevolver", 4},--Pistol
         {"TLOG_MilitaryPistol", 4},--Pistol
     },
     KitchenRandom = {
         {"TLOG_HuntingPistol", 0.002}, --Pistol
-        {"TLOG_ElDiablo", 0.002}, --Pistol
+        {"TLOG_Eldiablo", 0.002}, --Pistol
         {"TLOG_9mmPistol", 0.001},--Pistol
         {"TLOG_SmallRevolver", 0.004},--Pistol
         {"TLOG_MilitaryPistol", 0.004},--Pistol
     },
     OfficeDeskHome = {
         {"TLOG_HuntingPistol", 0.002}, --Pistol
-        {"TLOG_ElDiablo", 0.002}, --Pistol
+        {"TLOG_Eldiablo", 0.002}, --Pistol
         {"TLOG_9mmPistol", 0.001},--Pistol
         {"TLOG_SmallRevolver", 0.004},--Pistol
         {"TLOG_MilitaryPistol", 0.004},--Pistol
     },
     PlankStashGun = {
         {"TLOG_HuntingPistol", 2}, --Pistol
-        {"TLOG_ElDiablo", 2}, --Pistol
+        {"TLOG_Eldiablo", 2}, --Pistol
         {"TLOG_9mmPistol", 1},--Pistol
         {"TLOG_SmallRevolver", 4},--Pistol
         {"TLOG_MilitaryPistol", 4},--Pistol
@@ -497,7 +497,7 @@ add2Distribution(TLOG_distributions)
 {"TLOG_DoubleBarrelShotgun", 8}, --Shotgun
 {"TLOG_Shorty", 4},--Shotgun
 {"TLOG_HuntingPistol", 4}, --Pistol
-{"TLOG_ElDiablo", 4}, --Pistol
+{"TLOG_Eldiablo", 4}, --Pistol
 {"TLOG_9mmPistol", 7},--Pistol
 {"TLOG_SmallRevolver", 10},--Pistol
 {"TLOG_MilitaryPistol", 9},--Pistol

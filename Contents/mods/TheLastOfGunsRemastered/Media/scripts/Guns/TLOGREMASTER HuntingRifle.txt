@@ -109,6 +109,9 @@ module Base
         JamGunChance = 1,
         AttachmentType = Rifle,
         StopPower = 20,
+		TorchCone	=	TRUE,
+		LightStrength	=	0,
+		LightDistance	=	13,
     }
 fixing Fix Remington 700
 	{

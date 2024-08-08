@@ -14,7 +14,7 @@ module Base
         Ranged	=	TRUE,
         ProjectileCount	=	5,
         ConditionLowerChanceOneIn	=	90,
-        Weight	=	4,
+        Weight	=	3.6,
         SplatNumber	=	5,
         PushBackMod	=	0.8,
         SubCategory	=	Firearm,
@@ -101,7 +101,9 @@ module Base
 		ModelWeaponPart = TLOG_SlingSheetRope TLOG_HuntingRifleSlingSheetRope sling sling,
 		ModelWeaponPart = TLOG_SlingBelt TLOG_HuntingRifleSlingBelt sling sling,
 		ModelWeaponPart = TLOG_WeaponFlashlight TLOG_WeaponFlashlightDoubleBarrel flashlight flashlight,
-		
+		TorchCone	=	TRUE,
+		LightStrength	=	0,
+		LightDistance	=	13,
     }
 fixing Fix Baikal MP 27
 	{

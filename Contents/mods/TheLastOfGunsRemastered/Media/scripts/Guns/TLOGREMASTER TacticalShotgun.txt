@@ -94,6 +94,9 @@ module Base
 		ModelWeaponPart = TLOG_SlingBelt TLOG_Pumpshotgun1SlingBelt sling sling,
 		ModelWeaponPart = TLOG_WeaponFlashlight TLOG_WeaponFlashlightPumpShotgun1 flashlight flashlight,
         StopPower = 20,
+		TorchCone	=	TRUE,
+		LightStrength	=	0,
+		LightDistance	=	13,
 	}
 	fixing Fix FN Tactical Police
 	{

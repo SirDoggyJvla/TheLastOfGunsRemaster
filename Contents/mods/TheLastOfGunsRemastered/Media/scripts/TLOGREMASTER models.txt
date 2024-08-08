@@ -912,7 +912,7 @@ module Base
 
 		attachment flashlight
 		{
-			offset = 0.0000 0.0000 0.0000,
+			offset = 0.0000 -0.0010 0.0040,
 			rotate = 0.0000 0.0000 0.0000,
 		}
 

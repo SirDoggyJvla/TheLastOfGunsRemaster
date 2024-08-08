@@ -17,6 +17,7 @@ module Base
         SwingAmountBeforeImpact	=	0,
         ProjectileCount	=	1,
         ConditionLowerChanceOneIn	=	90,
+		PiercingBullets = TRUE,
         Weight	=	3.7,
         SplatNumber	=	3,
         PushBackMod	=	0.3,
@@ -109,6 +110,9 @@ module Base
 		ModelWeaponPart = TLOG_ForwardGripWood TLOG_ForwardGripWood grip grip,
 		ModelWeaponPart = TLOG_WeaponFlashlight TLOG_WeaponFlashlightSemiAutoRifleAbby flashlight flashlight,
         StopPower = 2,
+		TorchCone	=	TRUE,
+		LightStrength	=	0,
+		LightDistance	=	13,
     }
 	fixing Fix Vepr .308
 	{

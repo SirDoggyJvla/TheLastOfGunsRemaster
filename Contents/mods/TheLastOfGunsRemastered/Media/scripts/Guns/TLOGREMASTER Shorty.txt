@@ -93,6 +93,9 @@ module Base
 		ModelWeaponPart = TLOG_PipeShotgunSpreader TLOG_PipeShotgunSpreader choketube choketube,
 		ModelWeaponPart = TLOG_WeaponFlashlight TLOG_WeaponFlashlightShorty flashlight flashlight,
 		ModelWeaponPart = TLOG_LaserSight TLOG_LaserSight lasersight lasersight,
+		TorchCone	=	TRUE,
+		LightStrength	=	0,
+		LightDistance	=	13,
     }
 	fixing Fix Serbu Super-Shorty
 	{

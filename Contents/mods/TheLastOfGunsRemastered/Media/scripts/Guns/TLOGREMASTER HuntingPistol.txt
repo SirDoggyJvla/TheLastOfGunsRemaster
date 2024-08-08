@@ -17,6 +17,7 @@ module Base
         SwingAmountBeforeImpact	=	0,
         ProjectileCount	=	1,
         ConditionLowerChanceOneIn	=	100,
+		PiercingBullets = TRUE,
         Weight	=	2,
         SplatNumber	=	3,
         PushBackMod	=	0.3,
