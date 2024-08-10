@@ -19,4 +19,5 @@ Tooltip_EN = {
 	Tooltip_SpareParts2 = "Spare parts from various long firearms. Will slightly improve overall performance and durability",
 	Tooltip_ElDiabloBarrel = "Reinforced Barrel. Increases velocity of the bullet, allowing it to pierce throught soft targets",
 	Tooltip_ElDiabloExpandedMag = "Reinforced Barrel. Increases velocity of the bullet, allowing it to pierce throught soft targets",
+	Tooltip_LightLaser = "Laser and Flashlight Combo attachment, provides bonuses from Lasersights while also providing light. ",
 	}

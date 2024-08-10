@@ -78,6 +78,9 @@ module Base
 		ModelWeaponPart = TLOG_MuzzleBrake TLOG_MuzzleBrake MuzzleAttachment MuzzleAttachment,
 		ModelWeaponPart = TLOG_FlashHider TLOG_FlashHider MuzzleAttachment MuzzleAttachment,
 		ModelWeaponPart = TLOG_LaserSight TLOG_LaserSight lasersight lasersight,
+		ModelWeaponPart = TLOG_TacticalFlashlightLaser TLOG_TacticalFlashlightLaser lasersight lasersight,
+		ModelWeaponPart = TLOG_SmallPipeLaserSight TLOG_SmallPipeLaserSight pipelasersight pipelasersight,
+		ModelWeaponPart = TLOG_SmallPipeFlashlight TLOG_SmallPipeFlashlight pipelasersight pipelasersight,
 		ModelWeaponPart = TLOG_x2Scope TLOG_x2Scope acog acog,
         ModelWeaponPart = TLOG_x4Scope TLOG_x4Scope scope2 scope2,
         ModelWeaponPart = TLOG_x8Scope TLOG_x8Scope scope2 scope2,
@@ -89,6 +92,9 @@ module Base
 		ModelWeaponPart = TLOG_WeaponFlashlight TLOG_WeaponFlashlightRifle flashlight flashlight,
         AttachmentType = Holster,
         StopPower = 12,
+		TorchCone	=	TRUE,
+		LightStrength	=	0,
+		LightDistance	=	10,
     }
 	fixing Fix Thompson Center Arms Contender
 	{

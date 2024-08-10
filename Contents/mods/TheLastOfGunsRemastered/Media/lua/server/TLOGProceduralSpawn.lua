@@ -51,6 +51,7 @@ local TLOG_distributions = {
         {"TLOG_MilitarySuppressor", 1},--Attachment
   --    {"TLOG_ElDiabloBarrelUpgrade", 2},--Attachment
         {"TLOG_LaserSight", 8}, --Attachment
+        {"TLOG_TacticalFlashlightLaser", 5}, --Attachment
   --    {"TLOG_SpareParts", 8}, --Attachment
   --    {"TLOG_SpareParts2", 8}, --Attachment
         {"TLOG_CFBarrelUpgrade", 8}, --Attachment
@@ -129,6 +130,7 @@ local TLOG_distributions = {
         {"TLOG_MilitarySuppressor", 2},--Attachment
         {"TLOG_ElDiabloBarrelUpgrade", 2},--Attachment
         {"TLOG_LaserSight", 5}, --Attachment
+        {"TLOG_TacticalFlashlightLaser", 3}, --Attachment
         {"TLOG_SpareParts", 8}, --Attachment
         {"TLOG_SpareParts2", 8}, --Attachment
         {"TLOG_CFBarrelUpgrade", 8}, --Attachment
@@ -171,6 +173,7 @@ local TLOG_distributions = {
         {"TLOG_MilitarySuppressor", 2},--Attachment
         {"TLOG_ElDiabloBarrelUpgrade", 2},--Attachment
         {"TLOG_LaserSight", 5}, --Attachment
+        {"TLOG_TacticalFlashlightLaser", 3}, --Attachment
         {"TLOG_SpareParts", 8}, --Attachment
         {"TLOG_SpareParts2", 8}, --Attachment
         {"TLOG_CFBarrelUpgrade", 8}, --Attachment
@@ -213,6 +216,7 @@ local TLOG_distributions = {
         {"TLOG_MilitarySuppressor", 2},--Attachment
         {"TLOG_ElDiabloBarrelUpgrade", 2},--Attachment
         {"TLOG_LaserSight", 4}, --Attachment
+        {"TLOG_TacticalFlashlightLaser", 3}, --Attachment
         {"TLOG_SpareParts", 8}, --Attachment
         {"TLOG_SpareParts2", 8}, --Attachment
         {"TLOG_CFBarrelUpgrade", 8}, --Attachment
@@ -405,6 +409,7 @@ local TLOG_distributions = {
         {"TLOG_MilitarySuppressor", 2},--Attachment
         {"TLOG_ElDiabloBarrelUpgrade", 2},--Attachment
         {"TLOG_LaserSight", 4}, --Attachment
+        {"TLOG_TacticalFlashlightLaser", 3}, --Attachment
         {"TLOG_SpareParts", 5}, --Attachment
         {"TLOG_SpareParts2", 5}, --Attachment
         {"TLOG_CFBarrelUpgrade", 5}, --Attachment

@@ -27,6 +27,7 @@ local item = ScriptManager.instance:getItem("AssaultRifle")
         item:DoParam("ModelWeaponPart    =    TLOG_MilitarySuppressor TLOG_MilitarySuppressorVanila muzzle muzzle")
 
         item:DoParam("ModelWeaponPart    =    TLOG_LaserSight TLOG_LaserSightVanila laser laser")
+        item:DoParam("ModelWeaponPart    =    TLOG_TacticalFlashlightLaser TLOG_TacticalFlashlightLaserVanila laser laser")
 
         item:DoParam("ModelWeaponPart    =    TLOG_MuzzleBrake TLOG_MuzzleBrakeVanila muzzle muzzle")
         item:DoParam("ModelWeaponPart    =    TLOG_FlashHider TLOG_FlashHiderVanila muzzle muzzle")
@@ -56,6 +57,7 @@ local item = ScriptManager.instance:getItem("AssaultRifle")
         item2:DoParam("ModelWeaponPart    =    TLOG_MilitarySuppressor TLOG_MilitarySuppressorVanila muzzle muzzle")
 
         item2:DoParam("ModelWeaponPart    =    TLOG_LaserSight TLOG_LaserSightVanila laser laser")
+        item2:DoParam("ModelWeaponPart    =    TLOG_TacticalFlashlightLaser TLOG_TacticalFlashlightLaserVanila laser laser")
 
         item2:DoParam("ModelWeaponPart    =    TLOG_MuzzleBrake TLOG_MuzzleBrakeVanila muzzle muzzle")
         item2:DoParam("ModelWeaponPart    =    TLOG_FlashHider TLOG_FlashHiderVanila muzzle muzzle")
@@ -129,6 +131,7 @@ local item = ScriptManager.instance:getItem("AssaultRifle")
         item5:DoParam("ModelWeaponPart    =    TLOG_RedDot2 TLOG_RedDot2Vanila reddot reddot")
 
         item5:DoParam("ModelWeaponPart    =    TLOG_LaserSight TLOG_LaserSightVanilaPistol laser laser")
+        item5:DoParam("ModelWeaponPart    =    TLOG_TacticalFlashlightLaser TLOG_TacticalFlashlightLaserVanilaPistol laser laser")
 
         item5:DoParam("ModelWeaponPart    =    TLOG_ImprovisedSuppressor TLOG_ImprovisedSuppressorVanila muzzle muzzle")
         item5:DoParam("ModelWeaponPart    =    TLOG_BottleSuppressor TLOG_BottleSuppressorVanila muzzle muzzle")
@@ -136,12 +139,16 @@ local item = ScriptManager.instance:getItem("AssaultRifle")
         item5:DoParam("ModelWeaponPart    =    TLOG_PipePistolMuzzleBrake TLOG_PipePistolMuzzleBrakeVanila muzzle muzzle")
         item5:DoParam("ModelWeaponPart    =    TLOG_LugWrenchMuzzleBrake TLOG_LugWrenchMuzzleBrakeVanila muzzle muzzle")
         item5:DoParam("ModelWeaponPart    =    TLOG_LugWrenchFlashHider TLOG_LugWrenchFlashHiderVanila muzzle muzzle")
+
+        item5:DoParam("ModelWeaponPart    =    TLOG_SmallPipeLaserSight TLOG_SmallPipeLaserSight_Vanila pipelasersight pipelasersight")
+        item5:DoParam("ModelWeaponPart    =    TLOG_SmallPipeFlashlight TLOG_SmallPipeFlashlight_Vanila pipelasersight pipelasersight")
     end
     local item6 = ScriptManager.instance:getItem("Pistol2")
     if item6 then
         item6:DoParam("ModelWeaponPart    =    TLOG_RedDot2 TLOG_RedDot2Vanila reddot reddot")
 
         item6:DoParam("ModelWeaponPart    =    TLOG_LaserSight TLOG_LaserSightVanilaPistol laser laser")
+        item6:DoParam("ModelWeaponPart    =    TLOG_TacticalFlashlightLaser TLOG_TacticalFlashlightLaserVanilaPistol laser laser")
 
         item6:DoParam("ModelWeaponPart    =    TLOG_ImprovisedSuppressor TLOG_ImprovisedSuppressorVanila muzzle muzzle")
         item6:DoParam("ModelWeaponPart    =    TLOG_BottleSuppressor TLOG_BottleSuppressorVanila muzzle muzzle")
@@ -149,12 +156,16 @@ local item = ScriptManager.instance:getItem("AssaultRifle")
         item6:DoParam("ModelWeaponPart    =    TLOG_PipePistolMuzzleBrake TLOG_PipePistolMuzzleBrakeVanila muzzle muzzle")
         item6:DoParam("ModelWeaponPart    =    TLOG_LugWrenchMuzzleBrake TLOG_LugWrenchMuzzleBrakeVanila muzzle muzzle")
         item6:DoParam("ModelWeaponPart    =    TLOG_LugWrenchFlashHider TLOG_LugWrenchFlashHiderVanila muzzle muzzle")
+
+        item6:DoParam("ModelWeaponPart    =    TLOG_SmallPipeLaserSight TLOG_SmallPipeLaserSight_Vanila pipelasersight pipelasersight")
+        item6:DoParam("ModelWeaponPart    =    TLOG_SmallPipeFlashlight TLOG_SmallPipeFlashlight_Vanila pipelasersight pipelasersight")
     end
     local item7 = ScriptManager.instance:getItem("Pistol3")
     if item7 then
         item7:DoParam("ModelWeaponPart    =    TLOG_RedDot2 TLOG_RedDot2Vanila reddot reddot")
 
         item7:DoParam("ModelWeaponPart    =    TLOG_LaserSight TLOG_LaserSightVanilaPistol laser laser")
+        item7:DoParam("ModelWeaponPart    =    TLOG_TacticalFlashlightLaser TLOG_TacticalFlashlightLaserVanilaPistol laser laser")
 
         item7:DoParam("ModelWeaponPart    =    TLOG_ImprovisedSuppressor TLOG_ImprovisedSuppressorVanila muzzle muzzle")
         item7:DoParam("ModelWeaponPart    =    TLOG_BottleSuppressor TLOG_BottleSuppressorVanila muzzle muzzle")
@@ -162,6 +173,9 @@ local item = ScriptManager.instance:getItem("AssaultRifle")
         item7:DoParam("ModelWeaponPart    =    TLOG_PipePistolMuzzleBrake TLOG_PipePistolMuzzleBrakeVanila muzzle muzzle")
         item7:DoParam("ModelWeaponPart    =    TLOG_LugWrenchMuzzleBrake TLOG_LugWrenchMuzzleBrakeVanila muzzle muzzle")
         item7:DoParam("ModelWeaponPart    =    TLOG_LugWrenchFlashHider TLOG_LugWrenchFlashHiderVanila muzzle muzzle")
+
+        item7:DoParam("ModelWeaponPart    =    TLOG_SmallPipeLaserSight TLOG_SmallPipeLaserSight_Vanila pipelasersight pipelasersight")
+        item7:DoParam("ModelWeaponPart    =    TLOG_SmallPipeFlashlight TLOG_SmallPipeFlashlight_Vanila pipelasersight pipelasersight")
     end
     local item8 = ScriptManager.instance:getItem("Shotgun")
     if item8 then
@@ -181,6 +195,23 @@ local item = ScriptManager.instance:getItem("AssaultRifle")
         item8:DoParam("ModelWeaponPart    =    TLOG_SlingSheetRope TLOG_HuntingRifleSlingSheetRope slingtlog slingtlog")
         item8:DoParam("ModelWeaponPart    =    TLOG_SlingBelt TLOG_HuntingRifleSlingBelt slingtlog slingtlog")
     end
+   
+  local item9 = ScriptManager.instance:getItem("Revolver")
+    if item9 then
+        item9:DoParam("ModelWeaponPart    =    TLOG_SmallPipeLaserSight TLOG_SmallPipeLaserSight_Vanila pipelasersight pipelasersight")
+        item9:DoParam("ModelWeaponPart    =    TLOG_SmallPipeFlashlight TLOG_SmallPipeFlashlight_Vanila pipelasersight pipelasersight")
+    end
+    local item10 = ScriptManager.instance:getItem("Revolver_Short")
+    if item10 then
+        item10:DoParam("ModelWeaponPart    =    TLOG_SmallPipeLaserSight TLOG_SmallPipeLaserSight_Vanila pipelasersight pipelasersight")
+        item10:DoParam("ModelWeaponPart    =    TLOG_SmallPipeFlashlight TLOG_SmallPipeFlashlight_Vanila pipelasersight pipelasersight")
+    end
+    local item11 = ScriptManager.instance:getItem("Revolver_Long")
+    if item11 then
+        item11:DoParam("ModelWeaponPart    =    TLOG_SmallPipeLaserSight TLOG_SmallPipeLaserSight_Vanila pipelasersight pipelasersight")
+        item11:DoParam("ModelWeaponPart    =    TLOG_SmallPipeFlashlight TLOG_SmallPipeFlashlight_Vanila pipelasersight pipelasersight")
+    end
+
 --[[
     TLOG_PipeShotgunSpreaderVanila
     TLOG_PipeShotgunChokeVanila

@@ -91,6 +91,7 @@ module Base
 		ModelWeaponPart = TLOG_MilitarySuppressor TLOG_MilitarySuppressor suppressor suppressor,
 		ModelWeaponPart = TLOG_BottleSuppressor TLOG_BottleSuppressor suppressor suppressor,
 		ModelWeaponPart = TLOG_LaserSight TLOG_LaserSight lasersight lasersight,
+		ModelWeaponPart = TLOG_TacticalFlashlightLaser TLOG_TacticalFlashlightLaser lasersight lasersight,
 		ModelWeaponPart = TLOG_Sling TLOG_HuntingRifleSling sling sling,
 		ModelWeaponPart = TLOG_SlingDuctTape TLOG_HuntingRifleSlingDuctTape sling sling,
 		ModelWeaponPart = TLOG_SlingRope TLOG_HuntingRifleSlingRope sling sling,

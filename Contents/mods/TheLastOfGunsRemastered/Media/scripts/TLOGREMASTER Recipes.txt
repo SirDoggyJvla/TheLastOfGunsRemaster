@@ -1,6 +1,61 @@
 module Base 
 {
-	
+	recipe  Craft Small Firearm Laser Sight (Pipe)
+    {
+       TLOG_SmallMetalPipe,
+	   HandTorch,
+	   Battery,
+	   Screws = 2,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:Electricity=1,
+	   Result:TLOG_SmallPipeLaserSight,
+		OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+	   Time:600.0,
+	   Category:TLOG,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+	   Prop2:TLOG_SmallMetalPipe,
+	   AllowDestroyedItem:true,
+    }
+	recipe Craft Small Firearm Flashlight (Pipe)
+    {
+       TLOG_SmallMetalPipe,
+	   HandTorch,
+	   Battery,
+	   Screws = 2,
+	   
+	   keep [Recipe.GetItemTypes.Screwdriver],
+	   keep [Recipe.GetItemTypes.Hammer],
+
+	   CanBeDoneFromFloor:true,
+	   SkillRequired:Electricity=1,
+	   Result:TLOG_SmallPipeFlashlight,
+		OnGiveXP:Recipe.OnGiveXP.DismantleElectronics,
+	   Time:600.0,
+	   Category:TLOG,
+	   AnimNode:Disassemble,
+	   Prop1:Screwdriver,
+	   Prop2:TLOG_SmallMetalPipe,
+	   AllowDestroyedItem:true,
+    }
+	recipe Craft Improvised Weapon Flashlight
+    {
+       DuctTape=2,
+       HandTorch,
+	   Battery,
+
+       CanBeDoneFromFloor:true,
+       Result:TLOG_WeaponFlashlight,
+       Sound:FixWithTape,
+       Time:250.0,
+       Category:TLOG,
+       Prop1:TLOG_CraftingDuctTape,
+       Prop2:HandTorch,
+    }
 	recipe Craft Improvised Cleaning kit
 	{
 	   RippedSheets,

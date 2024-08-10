@@ -91,6 +91,7 @@ module Base
 		ModelWeaponPart = TLOG_PipeDoubleBarrelSpreader TLOG_PipeDoubleBarrelSpreader choketube choketube,
 		ModelWeaponPart = TLOG_ShellHolder TLOG_ShellHolder shellholder shellholder,
 		ModelWeaponPart = TLOG_LaserSight TLOG_LaserSight lasersight lasersight,
+		ModelWeaponPart = TLOG_TacticalFlashlightLaser TLOG_TacticalFlashlightLaser lasersight lasersight,
 		ModelWeaponPart = TLOG_Mount TLOG_Mount reddotmount reddotmount,
 		ModelWeaponPart = TLOG_MountRedDot TLOG_MountRedDot reddotmount reddotmount,
 		ModelWeaponPart = TLOG_MountRedDot TLOG_MountRedDot reddotmount reddotmount,

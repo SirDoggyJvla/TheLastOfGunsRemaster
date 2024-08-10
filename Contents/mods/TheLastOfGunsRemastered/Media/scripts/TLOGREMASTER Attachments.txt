@@ -73,6 +73,21 @@ module Base
         WorldStaticModel = TLOG_LongBarrelUpgrade,
 		Tags = CarbonFiberBarrelTLOG,
     }
+	item TLOG_TacticalFlashlightLaser
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Laser Light Combo Attachment,
+        Icon = HandgunLaser,
+        Weight = 0.15,
+        WeightModifier = 0.15,
+        HitChanceModifier = 5,
+        MountOn = Pistol;Pistol2;Pistol3;AssaultRifle;AssaultRifle2;TLOG_MPX;TLOG_MilitarySniper;TLOG_Specter;TLOG_SemiAutoRifleAbby;TLOG_FullAutoRifle;TLOG_AssaultRifle;TLOG_TacticalShotgun;TLOG_DoubleBarrelShotgun;TLOG_Pumpshotgun1;TLOG_Pumpshotgun2;TLOG_9mmPistol;TLOG_MilitaryPistol;TLOG_SmallRevolver;TLOG_Shorty;TLOG_MilitaryPistol;TLOG_Eldiablo,
+        PartType = Sling,
+        Tooltip = Tooltip_LightLaser,
+        MetalValue = 15,
+        WorldStaticModel = TLOG_TacticalFlashlightLaser_ground,
+    }
 	item TLOG_LaserSight
     {
         DisplayCategory = WeaponPart,
@@ -82,7 +97,7 @@ module Base
         Weight = 0.1,
         WeightModifier = 0.1,
         HitChanceModifier = 5,
-        MountOn = Pistol;Pistol2;Pistol3;AssaultRifle;AssaultRifle2;TLOG_MPX;TLOG_MilitarySniper;TLOG_Specter;TLOG_SemiAutoRifleAbby;TLOG_FullAutoRifle;TLOG_AssaultRifle;TLOG_TacticalShotgun;TLOG_DoubleBarrelShotgun;TLOG_Pumpshotgun1;TLOG_Pumpshotgun2;TLOG_9mmPistol;TLOG_MilitaryPistol;TLOG_SmallRevolver;TLOG_MilitaryPistol;TLOG_Eldiablo,
+        MountOn = Pistol;Pistol2;Pistol3;AssaultRifle;AssaultRifle2;TLOG_MPX;TLOG_MilitarySniper;TLOG_Specter;TLOG_SemiAutoRifleAbby;TLOG_FullAutoRifle;TLOG_AssaultRifle;TLOG_TacticalShotgun;TLOG_DoubleBarrelShotgun;TLOG_Pumpshotgun1;TLOG_Pumpshotgun2;TLOG_9mmPistol;TLOG_MilitaryPistol;TLOG_SmallRevolver;TLOG_Shorty;TLOG_MilitaryPistol;TLOG_Eldiablo,
         PartType = Sling,
         Tooltip = Tooltip_Laser,
         MetalValue = 15,
@@ -226,6 +241,37 @@ module Base
         PartType = RecoilPad,
         Tooltip = Tooltip_FullAutoRifleImprovisedStock,
         WorldStaticModel = TLOG_FullAutoRiflePlankStock,	
+    }
+	item TLOG_SmallPipeLaserSight
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Laser Attachment (Pipe),
+        Icon = HandgunLaser,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        HitChanceModifier = 5,
+        MountOn = Pistol;Pistol2;Pistol3;Revolver;Revolver_Short;Revolver_Long;TLOG_MilitaryPistol;TLOG_9mmPistol;TLOG_Eldiablo;TLOG_SmallRevolver,
+        PartType = Sling,
+        Tooltip = Tooltip_Laser,
+        MetalValue = 15,
+        WorldStaticModel = TLOG_SmallPipeLaserSight_ground,
+    }
+	item TLOG_SmallPipeFlashlight
+    {
+        DisplayCategory = WeaponPart,
+        Type = WeaponPart,
+        DisplayName = Improvised Small Firearm Flashlight (Pipe),
+        Icon = Flashlight2,
+        Weight = 0.3,
+        WeightModifier = 0.3,
+        AimingTimeModifier = -1,
+        MountOn = Pistol;Pistol2;Pistol3;Revolver;Revolver_Short;Revolver_Long;TLOG_MilitaryPistol;TLOG_9mmPistol;TLOG_Eldiablo;TLOG_SmallRevolver,
+        PartType = Sling,
+        MetalValue = 15,
+        WorldStaticModel = TLOG_SmallPipeFlashlight,
+		Tooltip = Tooltip_TLOGImprovisedFlashlight,
+		Tags = TLOGImprovisedLight,
     }
 	item TLOG_WeaponFlashlight
     {

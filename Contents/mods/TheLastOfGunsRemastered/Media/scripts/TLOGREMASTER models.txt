@@ -1,16 +1,5 @@
 module Base
 {
-	model TLOG_Flamethrower
-	{
-		mesh = weapons/firearm/TLOG_Flamethrower,
-		texture = weapons/firearm/TLOG_Flamethrower,
-
-		attachment muzzle
-		{
-			offset = 0.0000 0.0210 0.0360,
-			rotate = -90.0000 0.0000 -90.0000,
-		}
-	}
 	model TLOG_HuntingRifle
 	{
 		mesh = weapons/firearm/TLOG_HuntingRifle,
@@ -579,6 +568,12 @@ module Base
 			offset = 0.0070 0.0880 -0.0180,
 			rotate = 180.0000 0.0000 180.0000,
 		}
+
+		attachment pipelasersight
+		{
+			offset = 0.0030 0.1070 -0.0130,
+			rotate = 0.0000 0.0000 0.0000,
+		}
 	}
 	model TLOG_SmallRevolver
 	{
@@ -619,6 +614,12 @@ module Base
 		{
 			offset = 0.0030 0.0920 -0.0170,
 			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment pipelasersight
+		{
+			offset = 0.0000 0.0780 0.0050,
+			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
 	model TLOG_ElDiablo
@@ -684,6 +685,12 @@ module Base
 		{
 			offset = 0.0040 0.1100 -0.0190,
 			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment pipelasersight
+		{
+			offset = 0.0000 0.0940 -0.0090,
+			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
 	model TLOG_Pumpshotgun1
@@ -841,7 +848,7 @@ module Base
 
 		attachment reddot
 		{
-			offset = 0.0010 0.1050 -0.0400,
+			offset = 0.0010 0.0890 -0.0400,
 			rotate = 180.0000 0.0000 180.0000,
 		}
 
@@ -861,6 +868,12 @@ module Base
 		{
 			offset = -0.0140 0.0930 -0.0170,
 			rotate = 0.0000 0.0000 180.0000,
+		}
+
+		attachment lasersight
+		{
+			offset = -0.0040 0.1170 -0.0430,
+			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
 	model TLOG_TacticalShotgun
@@ -973,6 +986,12 @@ module Base
 		{
 			offset = 0.0040 0.1000 -0.0020,
 			rotate = 179.0000 0.0000 180.0000,
+		}
+
+		attachment pipelasersight
+		{
+			offset = 0.0000 0.1050 0.0010,
+			rotate = 0.0000 0.0000 0.0000,
 		}
 	}
 	model TLOG_HuntingPistol

@@ -1,0 +1,31 @@
+module Base
+{
+	
+	sound FlamethrowerFire
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = media/sound/Flamethrower.ogg, distanceMax = 30, volume = 0.2f, }
+		maxInstancesPerEmitter = 2,
+	}
+	sound FlamethrowerReload1
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = media/sound/flamethrowerfasterreload.ogg, distanceMax = 7, volume = 0.6f, }
+	}
+	sound FlamethrowerReload2
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = media/sound/flamethrowerreloadempty.ogg, distanceMax = 7, volume = 0.6f, }
+	}
+	sound FlamethowerRack
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = media/sound/flamethrowerrack.ogg, distanceMax = 7, volume = 0.1f, }
+	}
+	sound flamehiteffect
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = media/sound/flamethrowerhiteffect.ogg, distanceMax = 2, volume = 0.1f, }
+	}
+
+}

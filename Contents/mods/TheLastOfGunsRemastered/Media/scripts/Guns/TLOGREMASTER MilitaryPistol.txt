@@ -77,6 +77,9 @@ module Base
         ModelWeaponPart = TLOG_ImprovisedSuppressor TLOG_ImprovisedSuppressor suppressor suppressor,
 		ModelWeaponPart = TLOG_MilitarySuppressor TLOG_MilitarySuppressor suppressor suppressor,
 		ModelWeaponPart = TLOG_LaserSight TLOG_LaserSight lasersight lasersight,
+		ModelWeaponPart = TLOG_TacticalFlashlightLaser TLOG_TacticalFlashlightLaser lasersight lasersight,
+		ModelWeaponPart = TLOG_SmallPipeLaserSight TLOG_SmallPipeLaserSight pipelasersight pipelasersight,
+		ModelWeaponPart = TLOG_SmallPipeFlashlight TLOG_SmallPipeFlashlight pipelasersight pipelasersight,
 		ModelWeaponPart = TLOG_BottleSuppressor TLOG_BottleSuppressor suppressor suppressor,
 		ModelWeaponPart = TLOG_PipePistolMuzzleBrake TLOG_PipePistolMuzzleBrake MuzzleAttachment MuzzleAttachment,
 		ModelWeaponPart = TLOG_LugWrenchMuzzleBrake TLOG_LugWrenchMuzzleBrake MuzzleAttachment MuzzleAttachment,
@@ -86,6 +89,9 @@ module Base
 		ModelWeaponPart = TLOG_WeaponFlashlight TLOG_WeaponFlashlightRifle flashlight flashlight,
         AttachmentType = Holster,
         StopPower = 5,
+		TorchCone	=	TRUE,
+		LightStrength	=	0,
+		LightDistance	=	10,
 	}
 	recipe Make .45 ACP Round Magazine,
 	{

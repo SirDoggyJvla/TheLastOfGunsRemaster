@@ -2,6 +2,8 @@ local TLOG_WeaponLight = {}
 
 TLOG_WeaponLight.Flashlights = {
 	"Base.TLOG_WeaponFlashlight",
+	"Base.TLOG_SmallPipeFlashlight",
+	"Base.TLOG_TacticalFlashlightLaser",
 
 }
 
