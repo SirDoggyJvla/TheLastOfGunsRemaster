@@ -3,7 +3,8 @@ module Base
 	recipe  Craft Small Firearm Laser Sight (Pipe)
     {
        TLOG_SmallMetalPipe,
-	   HandTorch,
+	   ElectronicsScrap = 2,
+	   HandTorch/Torch,
 	   Battery,
 	   Screws = 2,
 	   
@@ -24,7 +25,8 @@ module Base
 	recipe Craft Small Firearm Flashlight (Pipe)
     {
        TLOG_SmallMetalPipe,
-	   HandTorch,
+	   ElectronicsScrap = 2,
+	   HandTorch/Torch,
 	   Battery,
 	   Screws = 2,
 	   

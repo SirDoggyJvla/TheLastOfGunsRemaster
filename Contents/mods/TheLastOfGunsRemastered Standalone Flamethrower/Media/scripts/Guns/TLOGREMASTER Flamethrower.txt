@@ -1,15 +1,25 @@
 module Base
 {
+
 	recipe Craft Flamethrower Canister
     {
-        Blowtorch,
-		PropaneTank = 4,
+		SmallSheetMetal = 1,
+		SheetMetal = 2,
+		BlowTorch=5,
+		ScrapMetal = 2,
+		WeldingRods = 2,
+		
 		
         Result:TLOG_FlamethrowerFuelTank,
         Time:600.0,
-		Prop2: TLOG_FlamethrowerFuelTankCraft,
-		OnCreate:Recipe.OnCreate.FillPropanetankTLOG,
-
+		SkillRequired:MetalWelding=2,
+		OnGiveXP:Recipe.OnGiveXP.MetalWelding25,
+		Sound:BlowTorch,
+		Time:600.0,
+		Category:TLOG,
+		AnimNode:BlowTorchFloor,
+		Prop1:Source=3,
+		CanBeDoneFromFloor:true,
     }
 	recipe Fill Canister
     {
@@ -18,9 +28,10 @@ module Base
 		
         Result:TLOG_FlamethrowerFuelTank,
         Time:600.0,
+		Category:TLOG,
 		Prop2: TLOG_FlamethrowerFuelTankCraft,
 		OnCreate:Recipe.OnCreate.FillPropanetankTLOGFull,
-
+		CanBeDoneFromFloor:true,
     }
 	recipe Fill 1/2 Canister
     {
@@ -29,9 +40,10 @@ module Base
 		
         Result:TLOG_FlamethrowerFuelTank,
         Time:600.0,
+		Category:TLOG,
 		Prop2: TLOG_FlamethrowerFuelTankCraft,
 		OnCreate:Recipe.OnCreate.FillPropanetankTLOGHalf,
-
+		CanBeDoneFromFloor:true,
     }
 	recipe Fill 1/4 Canister
     {
@@ -40,9 +52,10 @@ module Base
 		
         Result:TLOG_FlamethrowerFuelTank,
         Time:600.0,
+		Category:TLOG,
 		Prop2: TLOG_FlamethrowerFuelTankCraft,
 		OnCreate:Recipe.OnCreate.FillPropanetankTLOGQuarter,
-
+		CanBeDoneFromFloor:true,
     }
 	model TLOG_Flamethrower
 	{
@@ -103,7 +116,7 @@ module Base
         KnockBackOnNoDeath	=	TRUE,
         Ranged	=	TRUE,
         SwingAmountBeforeImpact	=	0,
-        ProjectileCount	=	4,
+        ProjectileCount	=	5,
         ConditionLowerChanceOneIn	=	200,
         Weight	=	5.0,
         SplatNumber	=	3,
@@ -111,8 +124,8 @@ module Base
         SubCategory	=	Firearm,
         ConditionMax	=	10,
         ShareDamage	=	FALSE,
-        MaxHitCount	=	4,
-        PiercingBullets = TRUE,
+        MaxHitCount	=	5,
+        PiercingBullets = FALSE,
         IsAimedFirearm	=	TRUE,
         DoorDamage	=	5,
         UseEndurance	=	FALSE,
