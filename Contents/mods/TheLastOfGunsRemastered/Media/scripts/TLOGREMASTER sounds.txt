@@ -1,5 +1,10 @@
 module Base
 {
+	sound TLOGLeverActionRifleRack
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = Media/sound/TLOGLeverActionRifleRack.ogg, distanceMax = 4, volume = 1f, }
+	}
 	sound TLOGSilencedBottleSound
 	{
         category = Weapon, loop = false, is3D = true,

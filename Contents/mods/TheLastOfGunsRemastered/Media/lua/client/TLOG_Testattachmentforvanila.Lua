@@ -1,3 +1,5 @@
+--Useless file, but keeping it just in case
+
 --[[if getActivatedMods():contains("ItemTweakerAPI") then
 	require("ItemTweaker_Core");
 	else return end

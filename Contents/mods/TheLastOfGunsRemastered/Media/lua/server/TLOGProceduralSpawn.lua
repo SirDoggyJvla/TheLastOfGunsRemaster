@@ -19,6 +19,7 @@ local TLOG_distributions = {
         {"TLOG_HuntingRifle", 5},--Rifle 
         {"TLOG_MilitarySniper", 2},--Rifle
         {"TLOG_SemiAutoRifleAbby", 3},--Rifle
+        {"TLOG_LeverActionRifle", 3},--Rifle
         {"TLOG_MPXMagazine", 5},--mag
         {"TLOG_MPXMagazine", 1},--mag
         {"TLOG_ShortyClip", 5},--mag
@@ -46,6 +47,7 @@ local TLOG_distributions = {
         {"TLOG_FlashHider", 3},--Attachment
         {"TLOG_ShotgunChoke", 3},--Attachment
         {"TLOG_ExpandedMag", 2},--Attachment
+        {"TLOG_LeatherAmmoCaddy", 2},--Attachment
  --     {"TLOG_ElDiabloExpandedMag", 8}, --Attachment
  --     {"TLOG_Pumpshotgun1ExpandedMag", 2},--Attachment
         {"TLOG_MilitarySuppressor", 1},--Attachment
@@ -98,6 +100,7 @@ local TLOG_distributions = {
         {"TLOG_HuntingRifle", 5},--Rifle 
         {"TLOG_MilitarySniper", 2},--Rifle
         {"TLOG_SemiAutoRifleAbby", 3},--Rifle
+        {"TLOG_LeverActionRifle", 3},--Rifle
         {"TLOG_MPXMagazine", 5},--mag
         {"TLOG_MPXMagazine", 1},--mag
         {"TLOG_ShortyClip", 5},--mag
@@ -138,6 +141,7 @@ local TLOG_distributions = {
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 8}, --Attachment
+        {"TLOG_LeatherAmmoCaddy", 2},--Attachment
  
     },
     GunStoreCounter = {
@@ -181,6 +185,7 @@ local TLOG_distributions = {
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 8}, --Attachment
+        {"TLOG_LeatherAmmoCaddy", 2},--Attachment
 
     },
     GunStoreShelf = {
@@ -224,6 +229,7 @@ local TLOG_distributions = {
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 8}, --Attachment
+        {"TLOG_LeatherAmmoCaddy", 2},--Attachment
 
     },
     FirearmWeapons = {
@@ -243,6 +249,7 @@ local TLOG_distributions = {
         {"TLOG_HuntingRifle", 5},--Rifle 
         {"TLOG_MilitarySniper", 2},--Rifle
         {"TLOG_SemiAutoRifleAbby", 3},--Rifle
+        {"TLOG_LeverActionRifle", 3},--Rifle
         {"TLOG_MPXMagazine", 5},--mag
         {"TLOG_MPXMagazine", 1},--mag
         {"TLOG_ShortyClip", 5},--mag
@@ -260,6 +267,7 @@ local TLOG_distributions = {
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 8}, --Attachment
+        {"TLOG_LeatherAmmoCaddy", 2},--Attachment
 
     },
     ArmyStorageGuns = {
@@ -276,6 +284,7 @@ local TLOG_distributions = {
         {"TLOG_HuntingRifle", 5},--Rifle 
         {"TLOG_MilitarySniper", 10},--Rifle
         {"TLOG_SemiAutoRifleAbby", 3},--Rifle
+        {"TLOG_LeverActionRifle", 5},--Rifle
         {"TLOG_MPXMagazine", 5},--mag
         {"TLOG_MPXMagazine", 1},--mag
         {"TLOG_ShortyClip", 5},--mag
@@ -291,6 +300,7 @@ local TLOG_distributions = {
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 4}, --Attachment
+        {"TLOG_LeatherAmmoCaddy", 2},--Attachment
 
     },
     PawnShopGuns = {
@@ -302,6 +312,7 @@ local TLOG_distributions = {
         {"TLOG_SmallRevolver", 8},--Pistol
         {"TLOG_MilitaryPistol", 6},--Pistol
         {"TLOG_MPX", 2},--AR
+        {"TLOG_LeverActionRifle", 3},--Rifle
     },
     PawnShopGunsSpecial = {
         {"TLOG_MPX", 3},--AR
@@ -325,13 +336,14 @@ local TLOG_distributions = {
         {"TLOG_Pumpshotgun1", 0.01}, --Shotgun
         {"TLOG_TacticalShotgun", 0.01}, --Shotgun
         {"TLOG_DoubleBarrelShotgun", 0.01}, --Shotgun
-        {"TLOG_HuntingRifle", 0.1},--Rifle
+        {"TLOG_HuntingRifle", 0.01},--Rifle
         {"TLOG_Shorty", 0.01},--Shotgun
         {"TLOG_HuntingPistol", 0.01}, --Pistol
         {"TLOG_Eldiablo", 0.01}, --Pistol
         {"TLOG_9mmPistol", 0.01},--Pistol
         {"TLOG_SmallRevolver", 0.010},--Pistol
         {"TLOG_MilitaryPistol", 0.01},--Pistol
+        {"TLOG_LeverActionRifle", 0.01},--Rifle
     },
     WardrobeManClassy = {
         {"TLOG_9mmPistol", 0.1},
@@ -341,6 +353,7 @@ local TLOG_distributions = {
         {"TLOG_Pumpshotgun1", 0.1}, --Shotgun
         {"TLOG_HuntingRifle", 0.1},
         {"TLOG_SmallRevolver", 0.1},
+        {"TLOG_LeverActionRifle", 0.1},--Rifle
     },
     ClosetShelfGeneric = {
         {"TLOG_9mmPistol", 0.001},
@@ -377,6 +390,7 @@ local TLOG_distributions = {
         {"TLOG_HuntingRifle", 5},--Rifle 
         {"TLOG_MilitarySniper", 1},--Rifle
         {"TLOG_SemiAutoRifleAbby", 3},--Rifle
+        {"TLOG_LeverActionRifle", 3},--Rifle
         {"TLOG_MPXMagazine", 5},--mag
         {"TLOG_MPXMagazine", 1},--mag
         {"TLOG_ShortyClip", 5},--mag
@@ -417,6 +431,7 @@ local TLOG_distributions = {
         {"TLOG_Grip", 8}, --Attachment
         {"TLOG_ForwardGrip", 8}, --Attachment
         {"TLOG_FullAutoRifleStock", 8}, --Attachment
+        {"TLOG_LeatherAmmoCaddy", 2},--Attachment
     },
     SecurityLockers = {
         {"TLOG_SmallRevolver", 4},
@@ -425,6 +440,7 @@ local TLOG_distributions = {
         {"TLOG_Pumpshotgun1", 2},
         {"TLOG_TacticalShotgun", 2},
         {"TLOG_HuntingRifle", 3},
+        {"TLOG_LeverActionRifle", 3},--Rifle
     },
     DrugLabGuns = {
         {"TLOG_Pumpshotgun1", 4}, --Shotgun
@@ -443,6 +459,7 @@ local TLOG_distributions = {
         {"TLOG_HuntingRifle", 5},--Rifle 
         {"TLOG_MilitarySniper", 1},--Rifle
         {"TLOG_SemiAutoRifleAbby", 2},--Rifle
+        {"TLOG_LeverActionRifle", 3},--Rifle
     },
     BedroomDresser = {
         {"TLOG_HuntingPistol", 0.2}, --Pistol

@@ -71,6 +71,7 @@ AttachedWeaponDefinitions.tlog_LongFirearms = {
 		"Base.TLOG_SemiAutoRifleAbby",
 		"Base.TLOG_FullAutoRifle",
 		"Base.TLOG_DoubleBarrelShotgun",
+		"Base.TLOG_LeverActionRifle",
 	},
 }
 
@@ -88,6 +89,7 @@ AttachedWeaponDefinitions.tlog_LongFirearmsSurvival = {
 		"Base.TLOG_SemiAutoRifleAbby",
 		"Base.TLOG_FullAutoRifle",
 		"Base.TLOG_DoubleBarrelShotgun",
+		"Base.TLOG_LeverActionRifle",
 	},
 }
 AttachedWeaponDefinitions.tlog_MilitaryFirearms = {
@@ -135,6 +137,7 @@ AttachedWeaponDefinitions.tlog_Hunters = {
 	"Base.TLOG_HuntingRifle",
 	"Base.TLOG_SemiAutoRifleAbby",
 	"Base.TLOG_DoubleBarrelShotgun",
+	"Base.TLOG_LeverActionRifle",
 	
 	},
 }

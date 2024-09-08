@@ -82,6 +82,8 @@ local item = ScriptManager.instance:getItem("AssaultRifle")
         item3:DoParam("ModelWeaponPart    =    TLOG_x2Scope TLOG_x2ScopeVanilaAR2 reddottlog reddottlog")
         item3:DoParam("ModelWeaponPart    =    TLOG_VariableScope TLOG_VariableScopeVanilaAR2 reddottlog reddottlog")
 
+        item3:DoParam("ModelWeaponPart    =    TLOG_LeatherAmmoCaddy TLOG_LeatherAmmoCaddyVanila AmmoCaddy AmmoCaddy")
+
         item3:DoParam("ModelWeaponPart    =    TLOG_ImprovisedSuppressor TLOG_ImprovisedSuppressorVanila muzzle muzzle")
         item3:DoParam("ModelWeaponPart    =    TLOG_BottleSuppressor TLOG_BottleSuppressorVanila muzzle muzzle")
         item3:DoParam("ModelWeaponPart    =    TLOG_MilitarySuppressor TLOG_MilitarySuppressorVanila muzzle muzzle")
@@ -108,6 +110,8 @@ local item = ScriptManager.instance:getItem("AssaultRifle")
         item4:DoParam("ModelWeaponPart    =    TLOG_x4Scope TLOG_x4ScopeVanilaAR2 reddottlog reddottlog")
         item4:DoParam("ModelWeaponPart    =    TLOG_x2Scope TLOG_x2ScopeVanilaAR2 reddottlog reddottlog")
         item4:DoParam("ModelWeaponPart    =    TLOG_VariableScope TLOG_VariableScopeVanilaAR2 reddottlog reddottlog")
+
+        item4:DoParam("ModelWeaponPart    =    TLOG_LeatherAmmoCaddy TLOG_LeatherAmmoCaddyVanila AmmoCaddy AmmoCaddy")
 
         item4:DoParam("ModelWeaponPart    =    TLOG_ImprovisedSuppressor TLOG_ImprovisedSuppressorVanila muzzle muzzle")
         item4:DoParam("ModelWeaponPart    =    TLOG_BottleSuppressor TLOG_BottleSuppressorVanila muzzle muzzle")

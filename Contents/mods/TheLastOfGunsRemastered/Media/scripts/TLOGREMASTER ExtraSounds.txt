@@ -1,0 +1,95 @@
+module Base
+{
+	sound TLOGDoubleBarrelFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGDoubleBarrelFire.ogg, distanceMax = 100, volume = 1.1f, }
+	}
+	
+	sound TLOGMilitaryPistolFire 
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGMilitaryPistolFire.ogg, distanceMax = 60, volume = 1f, }
+	}
+	sound TLOGMilitarySniperFire 
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGMilitarySniperFire.ogg, distanceMax = 100, volume = 1.1f, }
+	}
+	sound TLOGLeverActionRifleFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGLeverActionRifleFire.ogg, distanceMax = 80, volume = 1f, }
+	}
+	sound TLOGSemiAutoRifleAbbyFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGSemiAutoRifleAbbyFire.ogg, distanceMax = 80, volume = 1.2f, }
+	}
+	sound TLOGHuntingRifleFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGHuntingRifleFire.ogg, distanceMax = 80, volume = 1f, }
+	}
+	sound TLOGElDiabloFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGElDiabloFire.ogg, distanceMax = 80, volume = 1f, }
+	}
+	sound TLOGPumpShotgunFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGPumpShotgunFire.ogg, distanceMax = 90, volume = 1.2f, }
+	}
+	sound TLOGTacticalShotgunFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGTacticalShotgunFire.ogg, distanceMax = 90, volume = 1.0f, }
+	}
+		sound TLOGSmallRevolverFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGSmallRevolverFire.ogg, distanceMax = 50, volume = 0.9f, }
+	}
+		sound TLOGShortyFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGShortyFire.ogg, distanceMax = 100, volume = 1f, }
+	}
+	sound TLOG9mmPistolFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOG9mmPistolFire.ogg, distanceMax = 60, volume = 1f, }
+	}
+	sound TLOGAssaultRifleFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGAssaultRifleFire.ogg, distanceMax = 80, volume = 1f, }
+	}
+	sound TLOGFullAutoRifleFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGFullAutoRifleFire.ogg, distanceMax = 80, volume = 0.9f, }
+	}
+	sound TLOGSpecterFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGSpecterFire.ogg, distanceMax = 80, volume = 0.85f, }
+	}
+	sound TLOGMPXFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGMPXFire.ogg, distanceMax = 70, volume = 1f, }
+	}
+	sound TLOGHuntingPistolFire
+	{
+        category = Weapon, loop = false, is3D = true, reverbFactor = 1.0,
+        clip { file = media/sound/TLOGHuntingPistolFire.ogg, distanceMax = 80, volume = 1.1f, }
+	}
+	sound TLOGLeverActionRifleRack
+	{
+        category = Weapon, loop = false, is3D = true,
+        clip { file = media/sound/TLOGLeverActionRifleRack.ogg, distanceMax = 5, volume = 1f, }
+	}
+	
+}

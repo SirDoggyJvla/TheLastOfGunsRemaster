@@ -16,7 +16,7 @@ module Base
         Ranged	=	TRUE,
         SwingAmountBeforeImpact	=	0,
         ProjectileCount	=	1,
-        ConditionLowerChanceOneIn	=	60,
+        ConditionLowerChanceOneIn	=	120,
         Weight	=	0.7,
         SplatNumber	=	3,
         PushBackMod	=	0.3,

@@ -13,6 +13,13 @@ option TLOG_BreakableSuppressorChance
 	page = TLOGRemaster, 
 	translation = TLOG_BreakableSuppressorChance,
 }
+option TLOG_Sounds
+{
+    type = boolean,
+    default = false,
+    page = TLOGRemaster,
+	translation = TLOG_Sounds,
+}
 
 
 

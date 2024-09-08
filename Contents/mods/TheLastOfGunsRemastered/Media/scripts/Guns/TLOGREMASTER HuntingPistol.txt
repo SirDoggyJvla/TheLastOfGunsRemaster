@@ -16,7 +16,7 @@ module Base
         Ranged	=	TRUE,
         SwingAmountBeforeImpact	=	0,
         ProjectileCount	=	1,
-        ConditionLowerChanceOneIn	=	100,
+        ConditionLowerChanceOneIn	=	120,
 		PiercingBullets = TRUE,
         Weight	=	2,
         SplatNumber	=	3,

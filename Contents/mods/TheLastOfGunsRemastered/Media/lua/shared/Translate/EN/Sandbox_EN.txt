@@ -3,5 +3,6 @@ Sandbox_EN = {
 	Sandbox_TLOG_BreakableSuppressor = "If selected, suppressors will lose condition",
 	Sandbox_TLOG_BreakableSuppressorChance = "Chance for losing condition",
 	Sandbox_TLOG_BreakableSuppressorChance_tooltip = "Average number of shots for suppressor to lose point of condition."
-	
+	Sandbox_TLOG_Sounds = "Override sounds for Firearms",
+	Sandbox_TLOG_Sounds_tooltip = "If selected, guns will use new firing sounds that come from ,or are inspired by The Last of Us game",
 }

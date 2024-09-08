@@ -13,7 +13,7 @@ module Base
         KnockBackOnNoDeath	=	TRUE,
         Ranged	=	TRUE,
         ProjectileCount	=	5,
-        ConditionLowerChanceOneIn	=	90,
+        ConditionLowerChanceOneIn	=	140,
         Weight	=	3.6,
         SplatNumber	=	5,
         PushBackMod	=	0.8,

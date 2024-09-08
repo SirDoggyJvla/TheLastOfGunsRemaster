@@ -4,8 +4,8 @@ module Base
     {
        TLOG_SmallMetalPipe,
 	   ElectronicsScrap = 2,
-	   HandTorch/Torch,
-	   Battery,
+	   destroy HandTorch,
+	   destroy Battery,
 	   Screws = 2,
 	   
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -26,8 +26,8 @@ module Base
     {
        TLOG_SmallMetalPipe,
 	   ElectronicsScrap = 2,
-	   HandTorch/Torch,
-	   Battery,
+	   destroy HandTorch,
+	   destroy Battery,
 	   Screws = 2,
 	   
 	   keep [Recipe.GetItemTypes.Screwdriver],
@@ -47,8 +47,8 @@ module Base
 	recipe Craft Improvised Weapon Flashlight
     {
        DuctTape=2,
-       HandTorch,
-	   Battery,
+       destroy HandTorch,
+	   destroy Battery,
 
        CanBeDoneFromFloor:true,
        Result:TLOG_WeaponFlashlight,

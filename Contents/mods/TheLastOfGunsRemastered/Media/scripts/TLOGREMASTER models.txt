@@ -1,5 +1,195 @@
 module Base
 {
+	model TLOG_LeverActionRifleOpen
+	{
+		mesh = weapons/firearm/TLOG_LeverActionRifleOpen,
+		texture = weapons/firearm/TLOG_LeverActionRifle,
+
+	
+		attachment scope
+		{
+			offset = 0.0000 0.1110 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4170 0.0180,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1120 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0010 0.4170 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.0370 -0.0010,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0950 0.0290,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 -0.0030,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddotmount
+		{
+			offset = -0.0040 0.0660 -0.0370,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.1110 0.0300,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0000 0.0950 0.0300,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.4180 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0000 0.4170 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment mag
+		{
+			offset = 0.0000 0.1010 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+		attachment AmmoCaddy
+		{
+			offset = 0.0090 -0.0440 -0.0070,
+			rotate = 16.0000 0.0000 0.0000,
+		}
+	}
+	model TLOG_LeverActionRifle
+	{
+		mesh = weapons/firearm/TLOG_LeverActionRifle,
+		texture = weapons/firearm/TLOG_LeverActionRifle,
+
+		attachment scope
+		{
+			offset = 0.0000 0.1110 0.0220,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment muzzle
+		{
+			offset = 0.0000 0.4170 0.0180,
+			rotate = -90.0000 0.0000 0.0000,
+		}
+
+		attachment world
+		{
+			offset = 0.0080 0.1060 0.0000,
+			rotate = 180.0000 0.0000 180.0000,
+		}
+
+		attachment recoilpad
+		{
+			offset = 0.0000 -0.1120 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment choketube
+		{
+			offset = 0.0010 0.4170 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment sling
+		{
+			offset = 0.0000 0.0370 -0.0010,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddot
+		{
+			offset = 0.0010 0.0950 0.0290,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment flashlight
+		{
+			offset = 0.0000 0.0000 -0.0030,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment reddotmount
+		{
+			offset = -0.0040 0.0660 -0.0370,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment scope2
+		{
+			offset = 0.0000 0.1110 0.0300,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment acog
+		{
+			offset = 0.0000 0.0950 0.0300,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment suppressor
+		{
+			offset = 0.0000 0.4180 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment MuzzleAttachment
+		{
+			offset = 0.0000 0.4170 0.0190,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment mag
+		{
+			offset = 0.0000 0.1010 0.0000,
+			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment AmmoCaddy
+		{
+			offset = 0.0090 -0.0440 -0.0070,
+			rotate = 16.0000 0.0000 0.0000,
+		}
+	}
 	model TLOG_HuntingRifle
 	{
 		mesh = weapons/firearm/TLOG_HuntingRifle,
@@ -87,6 +277,12 @@ module Base
 		{
 			offset = 0.0000 0.1010 0.0000,
 			rotate = 0.0000 0.0000 0.0000,
+		}
+
+		attachment AmmoCaddy
+		{
+			offset = 0.0080 -0.0730 0.0000,
+			rotate = 15.0000 0.0000 0.0000,
 		}
 	}
 	model TLOG_MilitarySniper

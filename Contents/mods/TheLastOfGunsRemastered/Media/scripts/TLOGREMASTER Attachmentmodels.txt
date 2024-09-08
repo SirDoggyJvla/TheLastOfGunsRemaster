@@ -1,6 +1,5 @@
 module Base
 {
-/****************************** Sights + Models For Vanila******************************/
 	model TLOG_x2Scope
 	{
 		mesh = weapons/firearm/TLOG_x2Scope,
@@ -152,7 +151,6 @@ module Base
 			rotate = 0.0000 0.0000 90.0000,
 		}
 	}
-/****************************** Grips+ Models For Vanila******************************/
 	model TLOG_PlankGrip
 	{
 		mesh = weapons/firearm/TLOG_PlankGrip,
@@ -178,9 +176,6 @@ module Base
 		mesh = weapons/firearm/TLOG_ForwardGrip,
 		texture = weapons/firearm/TLOG_ForwardGripWood,
 	}
-	
-	
-	/****************************** ******************************/
 	model TLOG_SmallPipeFlashlight
 	{
 		mesh = weapons/firearm/TLOG_SmallPipeFlashlight,
@@ -232,7 +227,6 @@ module Base
 			rotate = -90.0000 0.0000 0.0000,
 		}
 	}
-	/****************************** Tactical LaserFlashlight Combo ******************************/
 	model TLOG_TacticalFlashlightLaser_ground
 	{
 		mesh = weapons/firearm/TLOG_TacticalFlashlightLaser_ground,
@@ -263,7 +257,6 @@ module Base
 		mesh = weapons/firearm/TLOG_TacticalFlashlightLaserVanilaPistol,
 		texture = weapons/firearm/TLOG_TacticalFlashlightLaser,
 	}
-	/****************************** Improvised Flashlight ******************************/
 	model TLOG_WeaponFlashlight_ground
 	{
 		mesh = weapons/firearm/TLOG_WeaponFlashlight_ground,
@@ -324,7 +317,6 @@ module Base
 		mesh = weapons/firearm/TLOG_LaserSightVanilaPistol,
 		texture = weapons/firearm/TLOG_LaserSight,
 	}
-	/****************************** Laser Attachment ******************************/
 	model TLOG_LaserSight
 	{
 		mesh = weapons/firearm/TLOG_LaserSight,
@@ -345,7 +337,6 @@ module Base
 		mesh = weapons/firearm/TLOG_LaserSightGround,
 		texture = weapons/firearm/TLOG_LaserSight,
 	}
-	/****************************** Slings******************************/
 	model TLOG_SlingGround
 		{
 		mesh = weapons/firearm/TLOG_SlingGround,
@@ -471,7 +462,6 @@ module Base
 		mesh = weapons/firearm/TLOG_FullAutoRifleSlingBelt,
 		texture = weapons/firearm/TLOG_SlingBelt,
 	}
-	/****************************** Recoilpads ******************************/
 	model TLOG_RecoilPad
 	{
 		mesh = weapons/firearm/TLOG_RecoilPad,
@@ -527,8 +517,6 @@ module Base
 			rotate = 0.0000 0.0000 90.0000,
 		}
 	}
-	
-	/****************************** Muzzle Attachments ******************************/
 	model TLOG_ShotgunChoke
 	{
 		mesh = weapons/firearm/TLOG_Pumpshotgun1Muzzle,
@@ -725,7 +713,22 @@ module Base
 		mesh = weapons/firearm/TLOG_FlashHiderVanila,
 		texture = weapons/firearm/TLOG_FlashHider,
 	}
-	/****************************** Others ******************************/
+	model TLOG_LeatherAmmoCaddy
+	{
+		mesh = weapons/firearm/TLOG_LeatherAmmoCaddy,
+		texture = weapons/firearm/TLOG_LeatherAmmoCaddy,
+
+		attachment world
+		{
+			offset = 0.0000 0.0000 0.0000,
+			rotate = 0.0000 0.0000 -90.0000,
+		}
+	}
+	model TLOG_LeatherAmmoCaddyVanila
+	{
+		mesh = weapons/firearm/TLOG_LeatherAmmoCaddyVanila,
+		texture = weapons/firearm/TLOG_LeatherAmmoCaddy,
+	}
 	model TLOG_ShellHolder
 	{
 		mesh = weapons/firearm/TLOG_ShellHolder,
@@ -770,7 +773,7 @@ module Base
 		texture = weapons/firearm/TLOG_LongBarrelUpgrade,
 		scale = 0.7,
 	}
-		model TLOG_MilitarySniperMagazine
+	model TLOG_MilitarySniperMagazine
 	{
 		mesh = weapons/firearm/TLOG_MilitarySniperMagazine,
 		texture = weapons/firearm/TLOG_MilitarySniper,
